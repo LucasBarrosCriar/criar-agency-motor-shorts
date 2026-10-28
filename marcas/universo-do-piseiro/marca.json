@@ -1,0 +1,20 @@
+{
+  "nome": "Universo do Piseiro",
+  "estilo_fundo": "listras",
+  "cores": {
+    "noite": "#0A0605",
+    "noite2": "#1C0B06",
+    "sol": "#E2561F",
+    "amarelo": "#E9B14A",
+    "creme": "#F6EFE2",
+    "vermelho": "#7A1A0A",
+    "ouro": "#E9B14A",
+    "prata": "#E3DCCF",
+    "bronze": "#D07A3E"
+  },
+  "fonte_titulo": "fontes/AlfaSlabOne-Regular.ttf",
+  "fonte_texto": "fontes/ZillaSlab-Bold.ttf",
+  "fonte_legenda": "Alfa Slab One",
+  "logo": "logo.png",
+  "moldura": "moldura.png"
+}

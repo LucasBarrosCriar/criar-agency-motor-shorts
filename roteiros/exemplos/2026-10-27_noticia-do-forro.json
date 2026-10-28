@@ -1,0 +1,122 @@
+{
+  "slug": "2026-10-27_SHORT_noticia-do-forro_podio-billboard",
+  "titulo_interno": "Notícia do Forró — Pódio do forró na Billboard + agenda do Nattan",
+  "formato": "Notícia do Forró (Short 9:16)",
+  "voz": "pm_alex",
+  "velocidade": 1.08,
+  "fontes": [
+    {
+      "fato": "Ranking forró da semana (Billboard Brasil, 27/10/2026)",
+      "url": "https://billboard.com.br/forro-10-musicas-mais-ouvidas-27-outubro-2026"
+    },
+    {
+      "fato": "Arrastão do Nattan nos 102 anos de Arapiraca, quinta 29/10, 20h",
+      "url": "https://www.cadaminuto.com.br/noticia/2026/10/27/arapiraca-celebra-102-anos-com-arrastao-de-nattan-nesta-quinta-feira-29-e-programacao-especial"
+    },
+    {
+      "fato": "Nattan em Salvador, 12/12, 21h, formato intimista com clima de club, local a divulgar",
+      "url": "https://aloalobahia.com/noticias/2026/10/20/nattan-vem-a-salvador-para-show-especial-em-dezembro-veja-detalhes/"
+    }
+  ],
+  "blocos": [
+    {
+      "id": "N01",
+      "cena": "vinheta",
+      "narracao": "Notícia do Forró!",
+      "tela": {
+        "titulo": "NOTÍCIA\nDO FORRÓ",
+        "selo": "UNIVERSO DO PISEIRO"
+      }
+    },
+    {
+      "id": "N02",
+      "cena": "manchete",
+      "narracao": "O forró tomou conta do Hot cem da Billboard Brasil nessa semana. Bora pro pódio?",
+      "tela": {
+        "chapeu": "RANKING DA SEMANA",
+        "titulo": "O FORRÓ\nTOMOU O\nHOT 100",
+        "rodape": "Fonte: Billboard Brasil · 27/10/2026"
+      }
+    },
+    {
+      "id": "N03",
+      "cena": "podio",
+      "narracao": "Em terceiro lugar, Mari Fernandez, com Telefone Sem Fio.",
+      "tela": {
+        "posicao": "3º",
+        "musica": "Telefone Sem Fio",
+        "artista": "Mari Fernandez",
+        "extra": "24º no Hot 100 geral"
+      }
+    },
+    {
+      "id": "N04",
+      "cena": "podio",
+      "narracao": "Em segundo, a parceria de Nattan e Zé Vaqueiro: Aproveita Que Eu Tô Brigado.",
+      "tela": {
+        "posicao": "2º",
+        "musica": "Aproveita Que\nEu Tô Brigado",
+        "artista": "Nattan e Zé Vaqueiro",
+        "extra": "11º no Hot 100 geral"
+      }
+    },
+    {
+      "id": "N05",
+      "cena": "podio",
+      "narracao": "E no topo do forró, Grelo, com João Gustavo e Murilo: Postinho de Gasolina. Segundo lugar no Hot cem geral, com todos os gêneros!",
+      "tela": {
+        "posicao": "1º",
+        "musica": "Postinho de\nGasolina",
+        "artista": "Grelo e João Gustavo e Murilo",
+        "extra": "2º no Hot 100 geral"
+      }
+    },
+    {
+      "id": "N06",
+      "cena": "lista",
+      "narracao": "E o Nattan tá voando! São duas músicas dele no top dez do forró. Quinta, dia vinte e nove, tem arrastão em Arapiraca. E no dia doze de dezembro tem show em clima de balada em Salvador.",
+      "tela": {
+        "chapeu": "AGENDA",
+        "titulo": "NATTAN\nTÁ VOANDO",
+        "itens": [
+          "2 músicas no top 10 do forró",
+          "29/10 · Arrastão em Arapiraca · 20h",
+          "12/12 · Salvador · clima de club"
+        ]
+      }
+    },
+    {
+      "id": "N07",
+      "cena": "cta",
+      "narracao": "Qual é a tua desse pódio? Comenta aí! E o repertório completo tá no canal.",
+      "tela": {
+        "titulo": "QUAL É A TUA\nDESSE PÓDIO?",
+        "sub": "Comenta aí embaixo",
+        "cta": "REPERTÓRIO COMPLETO NO CANAL"
+      }
+    }
+  ],
+  "marca": "universo-do-piseiro",
+  "seo": {
+    "titulos": [
+      "O FORRÓ TOMOU A BILLBOARD 🔥 Veja o pódio da semana",
+      "GRELO NO TOPO! 🏆 O pódio do forró na Billboard",
+      "NATTAN TÁ VOANDO 🚀 2 músicas no top 10 do forró"
+    ],
+    "descricao": "O forró dominou o Hot 100 da Billboard Brasil nesta semana! 🔥\nPódio do forró em 27/10/2026: Grelo, João Gustavo e Murilo no topo com \"Postinho de Gasolina\", Nattan e Zé Vaqueiro em 2º com \"Aproveita Que Eu Tô Brigado\" e Mari Fernandez em 3º com \"Telefone Sem Fio\".\n\n🔔 Se inscreve e ativa o sininho pra não perder o Notícia do Forró!\n#forró #piseiro #noticiadoforro",
+    "tags": [
+      "forró",
+      "piseiro",
+      "notícia do forró",
+      "billboard forró",
+      "ranking forró",
+      "grelo",
+      "nattan",
+      "zé vaqueiro",
+      "mari fernandez",
+      "universo do piseiro"
+    ],
+    "comentario_fixado": "Qual é a tua desse pódio? Grelo, Nattan e Zé Vaqueiro ou Mari Fernandez? 👇 Ativa o 🔔 que toda semana tem Notícia do Forró!",
+    "video_relacionado": "[DEFINIR]"
+  }
+}
