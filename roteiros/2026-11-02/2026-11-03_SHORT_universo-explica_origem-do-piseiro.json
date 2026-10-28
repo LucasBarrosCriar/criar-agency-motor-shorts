@@ -1,0 +1,115 @@
+{
+  "slug": "2026-11-03_SHORT_universo-explica_origem-do-piseiro",
+  "titulo_interno": "Universo Explica — De onde veio o piseiro?",
+  "formato": "Universo Explica (Short 9:16)",
+  "marca": "universo-do-piseiro",
+  "voz": "pm_alex",
+  "velocidade": 1.08,
+  "fontes": [
+    {
+      "fato": "Pisadinha surgiu em Monte Santo (BA) no início dos anos 2000; teclado eletrônico + voz; tocada em paredões; piseiro é vertente posterior com influência de funk e brega funk; Vitor Fernandes, 'Rei do Piseiro', começou em 2019; piseiro ganhou o Brasil em 2019",
+      "url": "https://thebackstage-deezer.com/br/musica/piseiro/"
+    },
+    {
+      "fato": "Vitor Fernandes é de Petrolina; pisadinha nasceu em Monte Santo-BA",
+      "url": "https://en.wikipedia.org/wiki/Pisadinha"
+    },
+    {
+      "fato": "Barões da Pisadinha: visibilidade nacional em 2019 com 'Tá Rocheda'; em 2021, duas músicas no Top 50 Global do Spotify",
+      "url": "https://pt.wikipedia.org/wiki/Os_Bar%C3%B5es_da_Pisadinha"
+    }
+  ],
+  "seo": {
+    "titulos": [
+      "DE ONDE VEIO O PISEIRO? 🎹 A história completa",
+      "O PISEIRO NASCEU AQUI 😱 Tu sabia?",
+      "COMO O PISEIRO TOMOU O BRASIL 🔥"
+    ],
+    "descricao": "De onde veio o piseiro? 🎹 Da pisadinha do sertão da Bahia aos paredões do Brasil inteiro, com Barões da Pisadinha e Vitor Fernandes.\n\n🔔 Se inscreve e ativa o sininho pra mais Universo Explica!\n#piseiro #pisadinha #universoexplica",
+    "tags": [
+      "piseiro",
+      "pisadinha",
+      "origem do piseiro",
+      "barões da pisadinha",
+      "vitor fernandes",
+      "tá rocheda",
+      "monte santo",
+      "universo explica",
+      "universo do piseiro"
+    ],
+    "comentario_fixado": "Qual é o teu piseiro favorito? 👇 Ativa o 🔔 pra mais Universo Explica!",
+    "video_relacionado": "[DEFINIR]"
+  },
+  "blocos": [
+    {
+      "id": "N01",
+      "cena": "vinheta",
+      "narracao": "Universo Explica!",
+      "tela": {
+        "titulo": "UNIVERSO\nEXPLICA",
+        "selo": "UNIVERSO DO PISEIRO"
+      }
+    },
+    {
+      "id": "N02",
+      "cena": "manchete",
+      "narracao": "De onde veio o piseiro, esse som que tomou conta do Brasil? Bora entender.",
+      "tela": {
+        "chapeu": "UNIVERSO EXPLICA",
+        "titulo": "DE ONDE\nVEIO O\nPISEIRO?",
+        "rodape": "A história do som que tomou o Brasil"
+      }
+    },
+    {
+      "id": "N03",
+      "cena": "manchete",
+      "narracao": "Tudo começa com a pisadinha, um forró mais eletrônico que surgiu no interior da Bahia, em Monte Santo, no começo dos anos dois mil.",
+      "legenda": "Tudo começa com a pisadinha, um forró mais eletrônico que surgiu no interior da Bahia, em Monte Santo, no começo dos anos 2000.",
+      "tela": {
+        "chapeu": "A ORIGEM",
+        "titulo": "NASCEU NO\nSERTÃO DA\nBAHIA",
+        "rodape": "Pisadinha · Monte Santo (BA) · anos 2000"
+      }
+    },
+    {
+      "id": "N04",
+      "cena": "lista",
+      "narracao": "A receita é teclado eletrônico e voz, feita pra tocar no paredão. O piseiro veio depois, quando a pisadinha ganhou uma pegada de brega fânqui.",
+      "legenda": "A receita é teclado eletrônico e voz, feita pra tocar no paredão. O piseiro veio depois, quando a pisadinha ganhou uma pegada de brega funk.",
+      "tela": {
+        "chapeu": "A RECEITA",
+        "titulo": "TECLADO\nE VOZ",
+        "itens": [
+          "Teclado eletrônico + voz",
+          "Feito pra tocar no paredão",
+          "Depois veio a pegada do brega funk"
+        ]
+      }
+    },
+    {
+      "id": "N05",
+      "cena": "lista",
+      "narracao": "Em dois mil e dezenove o piseiro explodiu. Os Barões da Pisadinha estouraram com Tá Rocheda, e Vitor Fernandes, de Petrolina, virou o Rei do Piseiro. Em dois mil e vinte e um, os Barões emplacaram duas músicas no Top cinquenta Global do Spótifai.",
+      "legenda": "Em 2019 o piseiro explodiu. Os Barões da Pisadinha estouraram com Tá Rocheda, e Vitor Fernandes, de Petrolina, virou o Rei do Piseiro. Em 2021, os Barões emplacaram duas músicas no Top 50 Global do Spotify.",
+      "tela": {
+        "chapeu": "A EXPLOSÃO",
+        "titulo": "2019 FOI\nO ANO",
+        "itens": [
+          "Barões da Pisadinha · Tá Rocheda",
+          "Vitor Fernandes, de Petrolina",
+          "2021 · duas no Top 50 Global"
+        ]
+      }
+    },
+    {
+      "id": "N06",
+      "cena": "cta",
+      "narracao": "E aí, qual é o teu piseiro favorito? Comenta aí, e ativa o sininho pra mais Universo Explica!",
+      "tela": {
+        "titulo": "QUAL É O TEU\nPISEIRO\nFAVORITO?",
+        "sub": "Comenta aí embaixo",
+        "cta": "SE INSCREVE E ATIVA O SININHO"
+      }
+    }
+  ]
+}

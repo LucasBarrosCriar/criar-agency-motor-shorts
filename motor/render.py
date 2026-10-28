@@ -411,7 +411,7 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
     for b in rot["blocos"]:
         if b["cena"] == "vinheta":
             continue
-        pedacos = blocos_legenda(b["narracao"])
+        pedacos = blocos_legenda(b.get("legenda") or b["narracao"])
         pesos = [len(p) + 2 for p in pedacos]
         total = sum(pesos)
         t = inicios[b["id"]]

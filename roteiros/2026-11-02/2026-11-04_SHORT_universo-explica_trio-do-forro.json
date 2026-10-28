@@ -1,0 +1,102 @@
+{
+  "slug": "2026-11-04_SHORT_universo-explica_trio-do-forro",
+  "titulo_interno": "Universo Explica — Por que o trio do forró é sanfona, zabumba e triângulo?",
+  "formato": "Universo Explica (Short 9:16)",
+  "marca": "universo-do-piseiro",
+  "voz": "pm_alex",
+  "velocidade": 1.08,
+  "fontes": [
+    {
+      "fato": "Papel de cada instrumento do trio (sanfona = melodia; zabumba tocada dos dois lados, grave e agudo; triângulo = pulso contínuo); Luiz Gonzaga definiu sanfona-zabumba-triângulo como base do forró, outras combinações eram comuns antes; 'Asa Branca' popular em todo o Brasil nos anos 1940",
+      "url": "https://en.wikipedia.org/wiki/Forr%C3%B3"
+    }
+  ],
+  "seo": {
+    "titulos": [
+      "POR QUE O FORRÓ É SANFONA, ZABUMBA E TRIÂNGULO? 🪗",
+      "O SEGREDO do trio pé de serra 🔺",
+      "LUIZ GONZAGA criou o trio do forró? 👑"
+    ],
+    "descricao": "Por que o forró pé de serra é sanfona, zabumba e triângulo? 🪗 O papel de cada instrumento e como Luiz Gonzaga transformou o trio na base do forró.\n\n🔔 Se inscreve e ativa o sininho pra mais Universo Explica!\n#forró #pédeserra #luizgonzaga #universoexplica",
+    "tags": [
+      "forró pé de serra",
+      "trio de forró",
+      "sanfona",
+      "zabumba",
+      "triângulo",
+      "luiz gonzaga",
+      "rei do baião",
+      "asa branca",
+      "universo explica",
+      "universo do piseiro"
+    ],
+    "comentario_fixado": "Pé de serra ou piseiro: qual é o teu? 👇 Ativa o 🔔 pra mais Universo Explica!",
+    "video_relacionado": "[DEFINIR]"
+  },
+  "blocos": [
+    {
+      "id": "N01",
+      "cena": "vinheta",
+      "narracao": "Universo Explica!",
+      "tela": {
+        "titulo": "UNIVERSO\nEXPLICA",
+        "selo": "UNIVERSO DO PISEIRO"
+      }
+    },
+    {
+      "id": "N02",
+      "cena": "manchete",
+      "narracao": "Por que o forró pé de serra é sanfona, zabumba e triângulo? Bora entender o trio.",
+      "tela": {
+        "chapeu": "UNIVERSO EXPLICA",
+        "titulo": "POR QUE\nESSE TRIO?",
+        "rodape": "Sanfona, zabumba e triângulo"
+      }
+    },
+    {
+      "id": "N03",
+      "cena": "lista",
+      "narracao": "A sanfona faz a melodia. A zabumba é tocada dos dois lados: um som grave de um, e um estalo agudo do outro. E o triângulo segura o pulso, sem parar.",
+      "tela": {
+        "chapeu": "O TRIO",
+        "titulo": "CADA UM\nNO SEU PAPEL",
+        "itens": [
+          "Sanfona · a melodia",
+          "Zabumba · grave e estalo",
+          "Triângulo · o pulso sem parar"
+        ]
+      }
+    },
+    {
+      "id": "N04",
+      "cena": "manchete",
+      "narracao": "Quem transformou esse trio na base do forró foi Luiz Gonzaga, o Rei do Baião. Antes dele, outras combinações de instrumentos eram comuns.",
+      "tela": {
+        "chapeu": "QUEM FIXOU O TRIO",
+        "titulo": "LUIZ\nGONZAGA",
+        "rodape": "O Rei do Baião"
+      }
+    },
+    {
+      "id": "N05",
+      "cena": "manchete",
+      "narracao": "Com Asa Branca, nos anos quarenta, a música do Nordeste ganhou o Brasil inteiro. E o trio virou o símbolo do forró até hoje.",
+      "legenda": "Com Asa Branca, nos anos 40, a música do Nordeste ganhou o Brasil inteiro. E o trio virou o símbolo do forró até hoje.",
+      "tela": {
+        "chapeu": "O SUCESSO",
+        "titulo": "DO SERTÃO\nPRO BRASIL",
+        "rodape": "Asa Branca ganhou o país nos anos 1940"
+      }
+    },
+    {
+      "id": "N06",
+      "cena": "cta",
+      "narracao": "E tu, prefere o pé de serra ou o piseiro? Comenta aí, e ativa o sininho pra mais Universo Explica!",
+      "tela": {
+        "titulo": "PÉ DE SERRA\nOU PISEIRO?",
+        "sub": "Comenta aí embaixo",
+        "cta": "SE INSCREVE E ATIVA O SININHO"
+      }
+    }
+  ]
+}

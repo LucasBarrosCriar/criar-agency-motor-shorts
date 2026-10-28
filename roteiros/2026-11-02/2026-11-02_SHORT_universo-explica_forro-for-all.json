@@ -1,0 +1,107 @@
+{
+  "slug": "2026-11-02_SHORT_universo-explica_forro-for-all",
+  "titulo_interno": "Universo Explica — Forró vem de 'for all'? (mito)",
+  "formato": "Universo Explica (Short 9:16)",
+  "marca": "universo-do-piseiro",
+  "voz": "pm_alex",
+  "velocidade": 1.08,
+  "fontes": [
+    {
+      "fato": "Forró é redução de forrobodó; definição de Câmara Cascudo; a hipótese 'for all' (ferroviários ingleses / base americana em Natal) é falsa porque forrobodó já existia no Brasil antes",
+      "url": "https://www.dicionarioetimologico.com.br/forro/"
+    },
+    {
+      "fato": "Bailes chamados de forrobodó já apareciam na imprensa pernambucana no fim do século 19",
+      "url": "https://en.wikipedia.org/wiki/Forr%C3%B3"
+    }
+  ],
+  "seo": {
+    "titulos": [
+      "FORRÓ VEM DE \"FOR ALL\"? 🤔 Isso é MITO!",
+      "A VERDADE sobre o nome FORRÓ 😳",
+      "NÃO, forró não vem do inglês! 🚫"
+    ],
+    "descricao": "Forró vem de \"for all\"? Essa história é famosa, mas é lenda! 🤔\nForró é a forma curta de forrobodó, nome antigo de festa popular animada.\n\n🔔 Se inscreve e ativa o sininho pra mais Universo Explica!\n#forró #piseiro #universoexplica",
+    "tags": [
+      "forró",
+      "origem do forró",
+      "for all",
+      "forrobodó",
+      "câmara cascudo",
+      "história do forró",
+      "universo explica",
+      "universo do piseiro",
+      "curiosidades forró"
+    ],
+    "comentario_fixado": "Tu já tinha ouvido a história do \"for all\"? 👇 Ativa o 🔔 pra mais Universo Explica!",
+    "video_relacionado": "[DEFINIR]"
+  },
+  "blocos": [
+    {
+      "id": "N01",
+      "cena": "vinheta",
+      "narracao": "Universo Explica!",
+      "tela": {
+        "titulo": "UNIVERSO\nEXPLICA",
+        "selo": "UNIVERSO DO PISEIRO"
+      }
+    },
+    {
+      "id": "N02",
+      "cena": "manchete",
+      "narracao": "Tu já ouviu dizer que forró vem do inglês, fór ól? Bora ver se é verdade.",
+      "legenda": "Tu já ouviu dizer que forró vem do inglês, for all? Bora ver se é verdade.",
+      "tela": {
+        "chapeu": "UNIVERSO EXPLICA",
+        "titulo": "FORRÓ VEM\nDE “FOR ALL”?",
+        "rodape": "Mito ou verdade?"
+      }
+    },
+    {
+      "id": "N03",
+      "cena": "manchete",
+      "narracao": "A história diz que ingleses das ferrovias, ou americanos da base de Natal, anunciavam bailes abertos pra todo mundo. Fór ól. E daí viria o nome.",
+      "legenda": "A história diz que ingleses das ferrovias, ou americanos da base de Natal, anunciavam bailes abertos pra todo mundo. For all. E daí viria o nome.",
+      "tela": {
+        "chapeu": "A LENDA",
+        "titulo": "BAILE\n“PARA\nTODOS”",
+        "rodape": "Ingleses das ferrovias ou americanos de Natal"
+      }
+    },
+    {
+      "id": "N04",
+      "cena": "manchete",
+      "narracao": "Só que é lenda! Forró é a forma curta de forrobodó, que quer dizer festa popular animada. É o que registra o folclorista Câmara Cascudo.",
+      "tela": {
+        "chapeu": "A VERDADE",
+        "titulo": "VEM DE\nFORROBODÓ",
+        "rodape": "Festa popular animada, segundo Câmara Cascudo"
+      }
+    },
+    {
+      "id": "N05",
+      "cena": "lista",
+      "narracao": "E o forrobodó já existia no Brasil bem antes desses estrangeiros. No fim do século dezenove, a imprensa de Pernambuco já chamava os bailes assim.",
+      "legenda": "E o forrobodó já existia no Brasil bem antes desses estrangeiros. No fim do século 19, a imprensa de Pernambuco já chamava os bailes assim.",
+      "tela": {
+        "chapeu": "POR QUE É MITO",
+        "titulo": "A PALAVRA\nJÁ EXISTIA",
+        "itens": [
+          "Forrobodó = festa popular animada",
+          "Na imprensa de PE no século 19",
+          "Encurtou como “refri” e “japa”"
+        ]
+      }
+    },
+    {
+      "id": "N06",
+      "cena": "cta",
+      "narracao": "Tu já sabia dessa? Comenta aí, e ativa o sininho pra não perder o próximo Universo Explica!",
+      "tela": {
+        "titulo": "TU JÁ SABIA\nDESSA?",
+        "sub": "Comenta aí embaixo",
+        "cta": "SE INSCREVE E ATIVA O SININHO"
+      }
+    }
+  ]
+}

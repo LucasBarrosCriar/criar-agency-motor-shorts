@@ -22,6 +22,7 @@ Cada Short é um arquivo JSON. O motor lê os blocos em ordem: cada bloco vira u
 | `id` | `N01`, `N02`… (também nomeia o áudio da narração) |
 | `cena` | Tipo de cena: `vinheta`, `manchete`, `podio`, `lista`, `cta` |
 | `narracao` | Texto exato que a voz lê. Escreva como se fala: números por extenso ("doze de dezembro"), "Hot cem" em vez de "Hot 100" |
+| `legenda` | Opcional. Texto da legenda quando a narração usa grafia fonética (ex.: narração "fór ól", legenda "for all"). Se vazio, a legenda usa a própria narração |
 | `tela` | Textos que aparecem na cena (campos abaixo) |
 | `musica` | Opcional. Só com faixa **autorizada**: `{arquivo, inicio, destaque, vol_fala, vol_destaque}` |
 
