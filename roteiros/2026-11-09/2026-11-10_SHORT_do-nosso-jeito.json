@@ -1,0 +1,87 @@
+{
+  "slug": "2026-11-10_SHORT_do-nosso-jeito",
+  "titulo_interno": "Iguinho e Lulinha lançam Do Nosso Jeito",
+  "marca": "universo-do-piseiro-guia",
+  "voz": "pm_alex",
+  "velocidade": 0.79,
+  "fontes": [
+    {
+      "fato": "Iguinho e Lulinha lançam Do Nosso Jeito",
+      "url": "https://open.suamusica.com.br/iguinhoelulinha/do-nosso-jeito-iguinho-e-lulinha"
+    },
+    {
+      "fato": "Composição e faixas inéditas",
+      "url": "https://www.forronordeste.com.br/noticias/forro/iguinho-e-lulinha-anunciam-novo-album-para-esta-sexta-30"
+    }
+  ],
+  "blocos": [
+    {
+      "id": "N01",
+      "cena": "manchete",
+      "narracao": "Álbum novo no som da vaquejada!",
+      "tela": {
+        "titulo": "Lançamento",
+        "chapeu": "Notícia do Forró",
+        "rodape": "Forró Nordeste · 30/10"
+      },
+      "arte": "arte/2026-11-10_SHORT_do-nosso-jeito/N01.jpg"
+    },
+    {
+      "id": "N02",
+      "cena": "manchete",
+      "narracao": "Iguinho e Lulinha lançaram o álbum Do Nosso Jeito no dia trinta de outubro, no Sua Música.",
+      "tela": {
+        "titulo": "Iguinho e Lulinha\n“Do Nosso Jeito” · 30/10",
+        "chapeu": "Notícia do Forró",
+        "rodape": "Forró Nordeste · 30/10"
+      },
+      "arte": "arte/2026-11-10_SHORT_do-nosso-jeito/N02.jpg"
+    },
+    {
+      "id": "N03",
+      "cena": "manchete",
+      "narracao": "São faixas inéditas, e uma delas foi composta pelo próprio Lulinha.",
+      "tela": {
+        "titulo": "Faixas inéditas",
+        "chapeu": "Notícia do Forró",
+        "rodape": "Forró Nordeste · 30/10"
+      },
+      "arte": "arte/2026-11-10_SHORT_do-nosso-jeito/N03.jpg"
+    },
+    {
+      "id": "N04",
+      "cena": "manchete",
+      "narracao": "É o som de vaquejada que projetou a dupla sergipana.",
+      "tela": {
+        "titulo": "O som da vaquejada",
+        "chapeu": "Notícia do Forró",
+        "rodape": "Forró Nordeste · 30/10"
+      },
+      "arte": "arte/2026-11-10_SHORT_do-nosso-jeito/N04.jpg"
+    },
+    {
+      "id": "N05",
+      "cena": "cta",
+      "narracao": "Já ouviu? Qual é a melhor faixa? Comenta aí. Os lançamentos da semana tão no Resumão, no canal.",
+      "tela": {
+        "titulo": "Qual a melhor\nfaixa?",
+        "sub": "Universo do Piseiro",
+        "cta": "RESUMÃO NO CANAL"
+      },
+      "arte": "arte/2026-11-10_SHORT_do-nosso-jeito/N05.jpg"
+    }
+  ],
+  "seo": {
+    "titulos": [
+      "Iguinho e Lulinha lançam Do Nosso Jeito"
+    ],
+    "descricao": "Iguinho e Lulinha lançaram o álbum Do Nosso Jeito no dia trinta de outubro, no Sua Música.",
+    "tags": [
+      "Universo do Piseiro",
+      "forró",
+      "vaquejada"
+    ],
+    "comentario_fixado": "Qual a melhor faixa?",
+    "video_relacionado": "Resumão #1"
+  }
+}

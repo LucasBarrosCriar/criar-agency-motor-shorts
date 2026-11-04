@@ -1,0 +1,20 @@
+{
+  "nome": "Universo do Piseiro",
+  "estilo_fundo": "listras",
+  "cores": {
+    "noite": "#000000",
+    "noite2": "#1C0B06",
+    "sol": "#DB4216",
+    "amarelo": "#E9B14A",
+    "creme": "#F7F2ED",
+    "vermelho": "#7A240C",
+    "ouro": "#EFA446",
+    "prata": "#E3DCCF",
+    "bronze": "#D07A3E"
+  },
+  "fonte_titulo": "fontes/Faustina-Bold.ttf",
+  "fonte_texto": "fontes/Faustina-Bold.ttf",
+  "fonte_legenda": "Faustina Bold",
+  "logo": "../universo-do-piseiro/logo.png",
+  "moldura": null
+}

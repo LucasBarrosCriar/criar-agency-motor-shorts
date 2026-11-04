@@ -477,7 +477,13 @@ def main(roteiro_path, build):
     # 2) imagens e clipes com movimento
     clipes = []
     for i, b in enumerate(blocos):
-        img = CENAS[b["cena"]](b["tela"])
+        if b.get("arte"):
+            with Image.open(os.path.join(base_rot, b["arte"])) as arte:
+                if arte.size != (W, H):
+                    raise ValueError("Arte de cena deve ter 1080 × 1920 px")
+                img = arte.convert("RGB")
+        else:
+            img = CENAS[b["cena"]](b["tela"])
         png = os.path.join(pasta_img, f"{b['id']}_{b['cena']}.png")
         img.save(png)
         frames = int(round(dcena[i] * FPS))
