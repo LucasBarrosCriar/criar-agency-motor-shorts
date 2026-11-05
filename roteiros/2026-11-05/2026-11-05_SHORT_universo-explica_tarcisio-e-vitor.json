@@ -1,0 +1,46 @@
+{
+  "slug": "2026-11-05_SHORT_universo-explica_tarcisio-e-vitor",
+  "titulo_interno": "Universo Explica — Tarcísio do Acordeon e Vitor Fernandes",
+  "formato": "Universo Explica (Short 9:16)",
+  "marca": "universo-do-piseiro",
+  "voz": "pm_alex",
+  "velocidade": 0.92,
+  "fontes": [
+    {"fato": "Tarcísio vendeu a música 'Sofrer por Morena' a Vitor Fernandes e entrou na Top Eventos, escritório do Vitor", "url": "https://www.suamusica.com.br/noticia/tarcisio-do-acordeon-completa-28-anos-no-auge-da-carreira"},
+    {"fato": "Vitor Fernandes é de Petrolina e é chamado de 'Rei do Piseiro'", "url": "https://thebackstage-deezer.com/br/musica/piseiro/"},
+    {"fato": "'Roxinho' (Tarcísio com Vitor Fernandes) no Top 200 do Spotify Brasil, 151º (matéria de 11/01/2021)", "url": "https://diariodonordeste.verdesmares.com.br/entretenimento/e-hit/cearense-tarcisio-do-acordeon-alcanca-primeiro-lugar-do-top-brasil-do-spotify-1.3031941"},
+    {"fato": "CD 'Seresta do VF 2.0' lançado em 01/10/2026 no Sua Música, 21 faixas, com Tarcísio do Acordeon em faixas do repertório; +200 mil reproduções em pouco mais de 24h (matéria de 06/10/2026)", "url": "https://www.forronordeste.com.br/noticias/forro/vitor-fernandes-lanca-seresta-20"}
+  ],
+  "seo": {
+    "titulos": [
+      "TARCÍSIO E VITOR FERNANDES 🤝🔥 A parceria que tu não sabia",
+      "ELE VENDEU UMA MÚSICA PRO VITOR 😱 e virou Tarcísio do Acordeon",
+      "POR QUE TARCÍSIO E VITOR VIVEM JUNTOS? 🪗 Universo Explica"
+    ],
+    "descricao": "Por que Tarcísio do Acordeon e Vitor Fernandes vivem juntos? 🤝\nDa música \"Sofrer por Morena\" à Seresta do VF 2.0, lançada em 01/10/2026 com o Tarcísio no repertório.\n\nFontes:\n• Sua Música\n• Diário do Nordeste (11/01/2021)\n• Forró Nordeste (06/10/2026)\n• Deezer The Backstage\n\n🔔 Se inscreve e ativa o sininho pra mais Universo Explica!\n#tarcisiodoacordeon #vitorfernandes #piseiro #universoexplica",
+    "tags": ["tarcísio do acordeon", "vitor fernandes", "rei do piseiro", "roxinho", "sofrer por morena", "seresta do vf 2.0", "petrolina", "universo explica", "universo do piseiro"],
+    "comentario_fixado": "Qual é a melhor dos dois juntos? 👇 Ativa o 🔔 pra mais Universo Explica!",
+    "video_relacionado": "Repertório do Vitor Fernandes no canal [DEFINIR LINK]"
+  },
+  "blocos": [
+    {"id": "N01", "cena": "vinheta", "narracao": "Universo Explica!",
+     "tela": {"titulo": "UNIVERSO\nEXPLICA", "selo": "UNIVERSO DO PISEIRO"}},
+    {"id": "N02", "cena": "manchete",
+     "narracao": "Por que o Tarcísio do Acordeon e o Vitor Fernandes vivem juntos? Bora entender.",
+     "tela": {"chapeu": "UNIVERSO EXPLICA", "titulo": "TARCÍSIO\n+ VITOR\nFERNANDES", "rodape": "Uma parceria de anos"}},
+    {"id": "N03", "cena": "manchete",
+     "narracao": "Antes de estourar, o Tarcísio vendeu a música Sofrer por Morena pro Vitor, o Rei do Piseiro, de Petrolina. E entrou pra Top Eventos, o escritório do Vitor.",
+     "tela": {"chapeu": "O COMEÇO", "titulo": "VENDEU UMA\nMÚSICA PRO\nVITOR", "rodape": "“Sofrer por Morena” · Top Eventos"}},
+    {"id": "N04", "cena": "manchete",
+     "narracao": "No começo de dois mil e vinte e um, os dois apareciam juntos no Top duzentos do Spótifai Brasil, com Roxinho.",
+     "legenda": "No começo de 2021, os dois apareciam juntos no Top 200 do Spotify Brasil, com Roxinho.",
+     "tela": {"chapeu": "JUNTOS NO TOPO", "titulo": "“ROXINHO”\nNO TOP 200", "rodape": "Spotify Brasil · jan/2021"}},
+    {"id": "N05", "cena": "lista",
+     "narracao": "E no dia primeiro de outubro de dois mil e vinte e seis, o Vitor lançou a Seresta do VF dois ponto zero, com vinte e uma faixas e o Tarcísio no repertório. Passou de duzentas mil reproduções em pouco mais de um dia.",
+     "legenda": "E no dia 1º de outubro de 2026, o Vitor lançou a Seresta do VF 2.0, com 21 faixas e o Tarcísio no repertório. Passou de 200 mil reproduções em pouco mais de um dia.",
+     "tela": {"chapeu": "01/10/2026", "titulo": "SERESTA\nDO VF 2.0", "itens": ["21 faixas no Sua Música", "Tarcísio no repertório", "+200 mil plays em ~24h"]}},
+    {"id": "N06", "cena": "cta",
+     "narracao": "Qual é a melhor dos dois juntos? Comenta aí! E o repertório completo tá no canal.",
+     "tela": {"titulo": "QUAL É A MELHOR\nDOS DOIS?", "sub": "Comenta aí embaixo", "cta": "REPERTÓRIO COMPLETO NO CANAL"}}
+  ]
+}

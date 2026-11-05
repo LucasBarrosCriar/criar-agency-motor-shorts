@@ -1,0 +1,120 @@
+{
+  "slug": "2026-11-05_SHORT_noticia-do-forro_tarcisio-33-anos",
+  "titulo_interno": "Notícia do Forró — Tarcísio do Acordeon fez 33 anos",
+  "formato": "Notícia do Forró (Short 9:16)",
+  "marca": "universo-do-piseiro",
+  "voz": "pm_alex",
+  "velocidade": 0.92,
+  "fontes": [
+    {
+      "fato": "Nascido em 04/11/1993 em Campos Sales (CE)",
+      "url": "https://www.famousbirthdays.com/people/tarc--sio-do-acordeon.html"
+    },
+    {
+      "fato": "Campos Sales (CE); 27 anos em dez/2020; primeiro palco aos 12 numa banda de Campos Sales; começou a compor aos 14",
+      "url": "https://diariodonordeste.verdesmares.com.br/entretenimento/e-hit/tarcisio-do-acordeon-cresce-em-apps-e-realiza-sonho-de-trazer-familiares-de-sao-paulo-para-o-ceara-1.3025735"
+    },
+    {
+      "fato": "Aniversário no dia 04; ajudava o pai em bancas de verdura",
+      "url": "https://www.suamusica.com.br/noticia/tarcisio-do-acordeon-completa-28-anos-no-auge-da-carreira"
+    },
+    {
+      "fato": "'Meia Noite (Cê Tem Meu WhatsApp)' 1º no Top Brasil do Spotify; 5 músicas no Top 200: Meia Noite 1º, Nêga 31º, Esquema Preferido 141º, Roxinho com Vitor Fernandes 151º, Hoje Dói 159º (matéria de 11/01/2021)",
+      "url": "https://diariodonordeste.verdesmares.com.br/entretenimento/e-hit/cearense-tarcisio-do-acordeon-alcanca-primeiro-lugar-do-top-brasil-do-spotify-1.3031941"
+    }
+  ],
+  "seo": {
+    "titulos": [
+      "TARCÍSIO DO ACORDEON FEZ 33 🎂🪗 Relembra a caminhada",
+      "DE CAMPOS SALES PRO TOPO DO SPOTIFY 🔥 Tarcísio 33 anos",
+      "PARABÉNS, TARCÍSIO! 🎂 A história do Meia Noite"
+    ],
+    "descricao": "Tarcísio do Acordeon fez 33 anos no dia 4 de novembro! 🎂🪗\nDe Campos Sales (CE) ao 1º lugar do Top Brasil do Spotify com \"Meia Noite (Cê Tem Meu WhatsApp)\" no começo de 2021.\n\nFontes:\n• Diário do Nordeste (23/12/2020 e 11/01/2021)\n• Sua Música\n\n🔔 Se inscreve e ativa o sininho pra não perder o Notícia do Forró!\n#tarcisiodoacordeon #forró #piseiro #vaquejada #noticiadoforro",
+    "tags": [
+      "tarcísio do acordeon",
+      "tarcisio do acordeon 33 anos",
+      "meia noite",
+      "cê tem meu whatsapp",
+      "nêga",
+      "roxinho",
+      "forró de vaquejada",
+      "notícia do forró",
+      "universo do piseiro"
+    ],
+    "comentario_fixado": "Qual é a tua do Tarcísio? Meia Noite, Nêga ou Roxinho? 👇 Repertório completo no canal!",
+    "video_relacionado": "Repertório do Tarcísio do Acordeon no canal [DEFINIR LINK]"
+  },
+  "blocos": [
+    {
+      "id": "N01",
+      "cena": "vinheta",
+      "narracao": "Notícia do Forró!",
+      "tela": {
+        "titulo": "NOTÍCIA\nDO FORRÓ",
+        "selo": "UNIVERSO DO PISEIRO"
+      }
+    },
+    {
+      "id": "N02",
+      "cena": "manchete",
+      "narracao": "Tarcísio do Acordeon fez trinta e três anos no dia quatro de novembro. Bora relembrar a caminhada?",
+      "legenda": "Tarcísio do Acordeon fez 33 anos no dia 4 de novembro. Bora relembrar a caminhada?",
+      "tela": {
+        "chapeu": "ANIVERSÁRIO",
+        "titulo": "TARCÍSIO\nFEZ 33!",
+        "rodape": "04/11 · Campos Sales (CE)"
+      }
+    },
+    {
+      "id": "N03",
+      "cena": "lista",
+      "narracao": "Ele é de Campos Sales, no Ceará. Subiu no palco pela primeira vez aos doze anos, começou a compor aos catorze, e ajudava o pai vendendo verdura.",
+      "legenda": "Ele é de Campos Sales, no Ceará. Subiu no palco pela primeira vez aos 12 anos, começou a compor aos 14, e ajudava o pai vendendo verdura.",
+      "tela": {
+        "chapeu": "O COMEÇO",
+        "titulo": "CAMPOS\nSALES (CE)",
+        "itens": [
+          "Palco aos 12 anos",
+          "Compondo aos 14",
+          "Ajudava o pai na verdura"
+        ]
+      }
+    },
+    {
+      "id": "N04",
+      "cena": "manchete",
+      "narracao": "No começo de dois mil e vinte e um, Meia Noite, a famosa Cê Tem Meu WhatsApp, chegou ao primeiro lugar do Top Brasil do Spótifai.",
+      "legenda": "No começo de 2021, Meia Noite, a famosa Cê Tem Meu WhatsApp, chegou ao 1º lugar do Top Brasil do Spotify.",
+      "tela": {
+        "chapeu": "O ESTOURO",
+        "titulo": "NO TOPO\nDO SPOTIFY\nBRASIL",
+        "rodape": "“Meia Noite” · jan/2021"
+      }
+    },
+    {
+      "id": "N05",
+      "cena": "lista",
+      "narracao": "Na mesma época, ele tinha cinco músicas no Top duzentos do Spótifai Brasil, como Nêga e Roxinho, com Vitor Fernandes.",
+      "legenda": "Na mesma época, ele tinha cinco músicas no Top 200 do Spotify Brasil, como Nêga e Roxinho, com Vitor Fernandes.",
+      "tela": {
+        "chapeu": "OS NÚMEROS",
+        "titulo": "5 NO\nTOP 200",
+        "itens": [
+          "“Meia Noite” · 1º",
+          "“Nêga” · 31º",
+          "“Roxinho” c/ Vitor Fernandes"
+        ]
+      }
+    },
+    {
+      "id": "N06",
+      "cena": "cta",
+      "narracao": "Qual é a tua do Tarcísio? Comenta aí! E o repertório completo tá no canal.",
+      "tela": {
+        "titulo": "QUAL É A TUA\nDO TARCÍSIO?",
+        "sub": "Comenta aí embaixo",
+        "cta": "REPERTÓRIO COMPLETO NO CANAL"
+      }
+    }
+  ]
+}

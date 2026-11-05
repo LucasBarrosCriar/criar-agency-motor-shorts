@@ -1,0 +1,44 @@
+{
+  "slug": "2026-11-05_SHORT_noticia-do-forro_joao-gomes-abrace-um-denguinho",
+  "titulo_interno": "Notícia do Forró — João Gomes arrecada cerca de R$ 1,5 mi em Petrolina",
+  "formato": "Notícia do Forró (Short 9:16)",
+  "marca": "universo-do-piseiro",
+  "voz": "pm_alex",
+  "velocidade": 0.92,
+  "fontes": [
+    {"fato": "Show em 12/10/2026 (Dia das Crianças), 2ª edição do Abrace um Denguinho, Parque Municipal Josepha Coelho, Petrolina; cerca de R$ 1,5 milhão segundo balanço de 13/10; para o Hospital Dom Tomás, referência em câncer na região; Ivete Sangalo cantou com João Gomes; MC Loma e Sérgio do Forró", "url": "https://portaldeprefeitura.com.br/entretenimento/joao-gomes-arrecada-cerca-de-r-15-milhao-em-show-beneficente-em/633947/"},
+    {"fato": "Mais de R$ 1 milhão arrecadado; 2ª edição; Hospital Dom Tomás; Ivete Sangalo, MC Loma e Sérgio do Forró (matéria de 28/10)", "url": "https://www.forronordeste.com.br/noticias/forro/joao-gomes-arrecada-mais-de-rdollar-1-milhao-em-show-beneficente"}
+  ],
+  "seo": {
+    "titulos": [
+      "JOÃO GOMES ARRECADOU R$ 1,5 MI 🙏🔥 Show em Petrolina",
+      "IVETE E JOÃO GOMES NO MESMO PALCO 😱 pra ajudar hospital",
+      "FORRÓ QUE FAZ O BEM 💛 Abrace um Denguinho em Petrolina"
+    ],
+    "descricao": "João Gomes fez a 2ª edição do Abrace um Denguinho em Petrolina e arrecadou cerca de R$ 1,5 milhão para o Hospital Dom Tomás! 💛\nShow em 12/10/2026, no Parque Josepha Coelho, com Ivete Sangalo, MC Loma e Sérgio do Forró.\n\nFontes:\n• Portal de Prefeitura (13/10/2026)\n• Forró Nordeste (28/10/2026)\n\n🔔 Se inscreve e ativa o sininho pra não perder o Notícia do Forró!\n#joaogomes #forró #petrolina #noticiadoforro",
+    "tags": ["joão gomes", "abrace um denguinho", "show beneficente", "petrolina", "hospital dom tomás", "ivete sangalo", "mc loma", "sérgio do forró", "notícia do forró", "universo do piseiro"],
+    "comentario_fixado": "Tu tava no Abrace um Denguinho? Conta aqui 👇 Ativa o 🔔 que tem Notícia do Forró toda semana!",
+    "video_relacionado": "Resumão #1 [DEFINIR LINK]"
+  },
+  "blocos": [
+    {"id": "N01", "cena": "vinheta", "narracao": "Notícia do Forró!",
+     "tela": {"titulo": "NOTÍCIA\nDO FORRÓ", "selo": "UNIVERSO DO PISEIRO"}},
+    {"id": "N02", "cena": "manchete",
+     "narracao": "João Gomes fez um show em Petrolina que arrecadou cerca de um milhão e meio de reais pra um hospital!",
+     "legenda": "João Gomes fez um show em Petrolina que arrecadou cerca de R$ 1,5 milhão pra um hospital!",
+     "tela": {"chapeu": "FORRÓ QUE FAZ O BEM", "titulo": "SHOW DE\nR$ 1,5 MI", "rodape": "Balanço divulgado em 13/10"}},
+    {"id": "N03", "cena": "manchete",
+     "narracao": "Foi a segunda edição do Abrace um Denguinho, no dia doze de outubro, Dia das Crianças, no Parque Josepha Coelho.",
+     "legenda": "Foi a 2ª edição do Abrace um Denguinho, no dia 12 de outubro, Dia das Crianças, no Parque Josepha Coelho.",
+     "tela": {"chapeu": "ABRACE UM DENGUINHO", "titulo": "2ª EDIÇÃO\nEM PETROLINA", "rodape": "12/10 · Parque Josepha Coelho"}},
+    {"id": "N04", "cena": "lista",
+     "narracao": "No palco, Ivete Sangalo cantou com o João, e ainda teve MC Loma e Sérgio do Forró.",
+     "tela": {"chapeu": "CONVIDADOS", "titulo": "QUE\nTIME!", "itens": ["Ivete Sangalo", "MC Loma", "Sérgio do Forró"]}},
+    {"id": "N05", "cena": "manchete",
+     "narracao": "O dinheiro vai pro Hospital Dom Tomás, referência no tratamento de câncer na região.",
+     "tela": {"chapeu": "PRA ONDE VAI", "titulo": "HOSPITAL\nDOM TOMÁS", "rodape": "Referência em câncer na região"}},
+    {"id": "N06", "cena": "cta",
+     "narracao": "Forró que faz o bem! Tu tava lá? Comenta aí. E o repertório completo tá no canal.",
+     "tela": {"titulo": "TU TAVA\nLÁ?", "sub": "Comenta aí embaixo", "cta": "REPERTÓRIO COMPLETO NO CANAL"}}
+  ]
+}
