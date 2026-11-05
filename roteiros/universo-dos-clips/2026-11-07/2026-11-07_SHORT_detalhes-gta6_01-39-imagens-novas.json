@@ -1,0 +1,100 @@
+{
+  "slug": "2026-11-07_SHORT_detalhes-gta6_01-39-imagens-novas",
+  "titulo_interno": "Detalhes que ninguém viu #1 — 39 imagens novas da Launch Gallery",
+  "formato": "Detalhes que ninguém viu (Short 9:16)",
+  "marca": "universo-dos-clips",
+  "publicar_em": "2026-11-07",
+  "fontes": [
+    {
+      "fato": "Rockstar soltou 39 screenshots novos antes do lançamento (05/11/2026)",
+      "url": "https://www.vice.com/en/article/gta-6-38-new-screenshots-before-launch/"
+    },
+    {
+      "fato": "'The Launch Gallery': Vice City, Grassrivers, Leonida Keys, Port Gellhorn; assalto que parece ser em shopping; fuga de moto; possivelmente a última leva antes de 19/11 (05/11/2026)",
+      "url": "https://rockstarintel.com/39-new-gta-6-screenshots-released-for-launch/"
+    },
+    {
+      "fato": "Detalhes da Launch Gallery: Vice City à noite, cachorro com equipamento de combate, poros, personagens 'Florida Man', jacaré, mergulho, Jason saindo de avião militar (05/11/2026)",
+      "url": "https://www.pcgamer.com/games/grand-theft-auto/rockstar-drops-a-pile-of-new-gta-6-launch-screenshots-featuring-dancers-combat-dogs-and-so-many-pores/"
+    }
+  ],
+  "seo": {
+    "titulos": [
+      "GTA 6: 39 IMAGENS NOVAS 🔥 o que a Rockstar mostrou",
+      "GTA 6 SOLTOU A LAUNCH GALLERY 😱",
+      "GTA 6: A ÚLTIMA LEVA ANTES DO DIA 19? 👀"
+    ],
+    "descricao": "39 imagens novas da Launch Gallery — série Detalhes que ninguém viu #1.\nGTA 6 chega em 19/11/2026 para PS5 e Xbox Series X|S.\n\nImagens: Rockstar Games (material oficial, usado com comentário). Sem vazamentos e sem spoilers.\n🔔 Se inscreve e ativa o sino: clipes novos todo dia no Universo dos Clips.\n#gta6 #gtavi #universodosclips",
+    "tags": [
+      "gta 6",
+      "gta 6 imagens novas",
+      "gta 6 launch gallery",
+      "gta 6 screenshots",
+      "gta vi",
+      "vice city",
+      "leonida",
+      "universo dos clips"
+    ],
+    "comentario_fixado": "Qual imagem nova te chamou mais atenção? 👇 Amanhã tem mais detalhe da série.",
+    "video_relacionado": "GTA 6: tudo que sabemos antes do lançamento (longo) [DEFINIR LINK]"
+  },
+  "blocos": [
+    {
+      "id": "N01",
+      "cena": "vinheta",
+      "narracao": "Detalhes que ninguém viu. GTA seis!",
+      "tela": {
+        "titulo": "DETALHES QUE\nNINGUÉM VIU #1",
+        "selo": "GTA 6"
+      },
+      "legenda": "Detalhes que ninguém viu. GTA 6!"
+    },
+    {
+      "id": "N02",
+      "cena": "manchete",
+      "narracao": "A Rockstar soltou trinta e nove imagens novas do GTA seis. E tem coisa ali que quase ninguém reparou.",
+      "tela": {
+        "chapeu": "LAUNCH GALLERY",
+        "titulo": "39 IMAGENS\nNOVAS",
+        "rodape": "Rockstar Games · 05/11/2026"
+      },
+      "legenda": "A Rockstar soltou 39 imagens novas do GTA 6. E tem coisa ali que quase ninguém reparou."
+    },
+    {
+      "id": "N03",
+      "cena": "imagem",
+      "narracao": "O nome é Launch Gallery. E pode ser a última leva de imagens antes do lançamento, no dia dezenove de novembro.",
+      "tela": {
+        "chapeu": "ÚLTIMA LEVA?",
+        "titulo": "ANTES DO DIA 19",
+        "descricao": "Screenshot oficial da Launch Gallery\n(Jason e Lucia)",
+        "credito": "Imagem: Rockstar Games"
+      },
+      "legenda": "O nome é Launch Gallery. E pode ser a última leva de imagens antes do lançamento, no dia 19 de novembro."
+    },
+    {
+      "id": "N04",
+      "cena": "lista",
+      "narracao": "Tem Vice City de noite, os Grassrivers, Leonida Keys e Port Gellhorn. Tem até assalto e fuga de moto.",
+      "tela": {
+        "chapeu": "O QUE APARECE",
+        "titulo": "4 REGIÕES",
+        "itens": [
+          "Vice City à noite",
+          "Grassrivers e Keys",
+          "Port Gellhorn"
+        ]
+      }
+    },
+    {
+      "id": "N05",
+      "cena": "cta",
+      "narracao": "Na série Detalhes que ninguém viu, eu te mostro tudo, um por um. Segue o canal pra não perder!",
+      "tela": {
+        "titulo": "SÉRIE\nCOMPLETA",
+        "sub": "Detalhes que ninguém viu",
+        "cta": "SEGUE O CANAL"
+      }
+    }
+  ]
+}

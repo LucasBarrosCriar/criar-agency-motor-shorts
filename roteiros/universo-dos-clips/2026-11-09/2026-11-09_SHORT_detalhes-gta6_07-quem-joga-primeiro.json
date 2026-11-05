@@ -1,0 +1,90 @@
+{
+  "slug": "2026-11-09_SHORT_detalhes-gta6_07-quem-joga-primeiro",
+  "titulo_interno": "Detalhes que ninguém viu #7 — Quem joga primeiro: Nova Zelândia",
+  "formato": "Detalhes que ninguém viu (Short 9:16)",
+  "marca": "universo-dos-clips",
+  "publicar_em": "2026-11-09",
+  "fontes": [
+    {
+      "fato": "Lançamento à meia-noite no horário local; Nova Zelândia primeiro; PS5 exige 212 GB livres; pré-load não libera antes (03/11/2026)",
+      "url": "https://www.vice.com/en/article/gta-6-midnight-release-times-file-size-preload/"
+    }
+  ],
+  "seo": {
+    "titulos": [
+      "GTA 6: TEM GENTE QUE VAI JOGAR ANTES DE TU 😤",
+      "GTA 6: QUE HORAS LIBERA NO BRASIL? ⏰",
+      "GTA 6: A NOVA ZELÂNDIA JOGA PRIMEIRO 🌏"
+    ],
+    "descricao": "Quem joga primeiro: Nova Zelândia — série Detalhes que ninguém viu #7.\nGTA 6 chega em 19/11/2026 para PS5 e Xbox Series X|S.\n\nImagens: Rockstar Games (material oficial, usado com comentário). Sem vazamentos e sem spoilers.\n🔔 Se inscreve e ativa o sino: clipes novos todo dia no Universo dos Clips.\n#gta6 #gtavi #universodosclips",
+    "tags": [
+      "gta 6",
+      "gta 6 horário",
+      "gta 6 que horas libera",
+      "gta 6 lançamento",
+      "gta 6 brasil",
+      "gta vi",
+      "universo dos clips"
+    ],
+    "comentario_fixado": "Vai virar a noite do dia 18 pro 19? 👇 (Confere o horário na loja do teu console.)",
+    "video_relacionado": "GTA 6: tudo que sabemos antes do lançamento (longo) [DEFINIR LINK]"
+  },
+  "blocos": [
+    {
+      "id": "N01",
+      "cena": "vinheta",
+      "narracao": "Detalhes que ninguém viu. GTA seis!",
+      "tela": {
+        "titulo": "DETALHES QUE\nNINGUÉM VIU #7",
+        "selo": "GTA 6"
+      },
+      "legenda": "Detalhes que ninguém viu. GTA 6!"
+    },
+    {
+      "id": "N02",
+      "cena": "manchete",
+      "narracao": "Sabia que tem gente que vai jogar GTA seis antes da gente?",
+      "tela": {
+        "chapeu": "LANÇAMENTO",
+        "titulo": "QUEM JOGA\nPRIMEIRO?",
+        "rodape": "Fonte: VICE · 03/11/2026"
+      },
+      "legenda": "Sabia que tem gente que vai jogar GTA 6 antes da gente?"
+    },
+    {
+      "id": "N03",
+      "cena": "manchete",
+      "narracao": "A Rockstar libera o jogo à meia-noite no horário de cada lugar. E quem chega primeiro na meia-noite é a Nova Zelândia.",
+      "tela": {
+        "chapeu": "MEIA-NOITE LOCAL",
+        "titulo": "NOVA\nZELÂNDIA",
+        "rodape": "Primeira a chegar no dia 19"
+      }
+    },
+    {
+      "id": "N04",
+      "cena": "lista",
+      "narracao": "Lá, o dia dezenove começa às oito da manhã do dia dezoito, no horário de Brasília. Aqui, é meia-noite do dia dezenove.",
+      "tela": {
+        "chapeu": "HORÁRIO DE BRASÍLIA",
+        "titulo": "LÁ X AQUI",
+        "itens": [
+          "Nova Zelândia: 18/11, 8h",
+          "Brasil: 19/11, 0h",
+          "Confere na loja do console"
+        ]
+      },
+      "legenda": "Lá, o dia 19 começa às 8 da manhã do dia 18, no horário de Brasília. Aqui, é meia-noite do dia 19."
+    },
+    {
+      "id": "N05",
+      "cena": "cta",
+      "narracao": "Tu vai virar a noite pra jogar? Comenta aí!",
+      "tela": {
+        "titulo": "VAI VIRAR\nA NOITE?",
+        "sub": "Comenta aí",
+        "cta": "COMENTA AÍ"
+      }
+    }
+  ]
+}

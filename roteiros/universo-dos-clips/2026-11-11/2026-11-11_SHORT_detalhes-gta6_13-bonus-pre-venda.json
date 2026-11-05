@@ -1,0 +1,90 @@
+{
+  "slug": "2026-11-11_SHORT_detalhes-gta6_13-bonus-pre-venda",
+  "titulo_interno": "Detalhes que ninguém viu #13 — Bônus de pré-venda Vice City Vintage",
+  "formato": "Detalhes que ninguém viu (Short 9:16)",
+  "marca": "universo-dos-clips",
+  "publicar_em": "2026-11-11",
+  "fontes": [
+    {
+      "fato": "Brasil: padrão R$ 449,90; Ultimate R$ 549,90; upgrade R$ 100; caixa física só com código; bônus Vice City Vintage (25/06/2026)",
+      "url": "https://criticalhits.com.br/games/preco-de-gta-6-no-brasil-e-confirmado-com-a-pre-venda-veja-os-valores/"
+    }
+  ],
+  "seo": {
+    "titulos": [
+      "GTA 6: O BÔNUS DE QUEM RESERVA 🎁",
+      "GTA 6: VICE CITY VINTAGE 🚗 o que vem",
+      "GTA 6: VALE RESERVAR? 🎁"
+    ],
+    "descricao": "Bônus de pré-venda Vice City Vintage — série Detalhes que ninguém viu #13.\nGTA 6 chega em 19/11/2026 para PS5 e Xbox Series X|S.\n\nImagens: Rockstar Games (material oficial, usado com comentário). Sem vazamentos e sem spoilers.\n🔔 Se inscreve e ativa o sino: clipes novos todo dia no Universo dos Clips.\n#gta6 #gtavi #universodosclips",
+    "tags": [
+      "gta 6",
+      "gta 6 bônus pré-venda",
+      "vice city vintage",
+      "gta 6 ultimate",
+      "gta+",
+      "gta vi",
+      "universo dos clips"
+    ],
+    "comentario_fixado": "Tu já reservou? 👇",
+    "video_relacionado": "GTA 6: tudo que sabemos antes do lançamento (longo) [DEFINIR LINK]"
+  },
+  "blocos": [
+    {
+      "id": "N01",
+      "cena": "vinheta",
+      "narracao": "Detalhes que ninguém viu. GTA seis!",
+      "tela": {
+        "titulo": "DETALHES QUE\nNINGUÉM VIU #13",
+        "selo": "GTA 6"
+      },
+      "legenda": "Detalhes que ninguém viu. GTA 6!"
+    },
+    {
+      "id": "N02",
+      "cena": "manchete",
+      "narracao": "Quem reserva o GTA seis leva um bônus chamado Vice City Vintage.",
+      "tela": {
+        "chapeu": "PRÉ-VENDA",
+        "titulo": "VICE CITY\nVINTAGE",
+        "rodape": "Fonte: Critical Hits · 25/06/2026"
+      },
+      "legenda": "Quem reserva o GTA 6 leva um bônus chamado Vice City Vintage."
+    },
+    {
+      "id": "N03",
+      "cena": "lista",
+      "narracao": "Vem um veículo exclusivo, uma garagem personalizável, opções visuais pros protagonistas e um mês grátis de GTA mais.",
+      "tela": {
+        "chapeu": "O QUE VEM",
+        "titulo": "O PACOTE",
+        "itens": [
+          "Veículo exclusivo",
+          "Garagem personalizável",
+          "1 mês de GTA+"
+        ]
+      },
+      "legenda": "Vem um veículo exclusivo, uma garagem personalizável, opções visuais pros protagonistas e um mês grátis de GTA+."
+    },
+    {
+      "id": "N04",
+      "cena": "manchete",
+      "narracao": "Vale pras duas edições. E a Ultimate ainda libera extras durante a campanha.",
+      "tela": {
+        "chapeu": "ULTIMATE",
+        "titulo": "EXTRAS NA\nCAMPANHA",
+        "rodape": "Carros, armas, missões e roupas"
+      }
+    },
+    {
+      "id": "N05",
+      "cena": "cta",
+      "narracao": "Tu já reservou? Comenta aí!",
+      "tela": {
+        "titulo": "JÁ\nRESERVOU?",
+        "sub": "Comenta aí",
+        "cta": "COMENTA AÍ"
+      }
+    }
+  ]
+}

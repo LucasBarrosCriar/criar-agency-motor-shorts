@@ -1,0 +1,26 @@
+{
+  "nome": "Universo dos Clips",
+  "estilo_fundo": "neon",
+  "trilha": "synth",
+  "assinatura": "UNIVERSO DOS CLIPS",
+  "voz": "pm_santa",
+  "velocidade": 1.1,
+  "cores": {
+    "noite": "#08060E",
+    "noite2": "#160B24",
+    "sol": "#E8501E",
+    "amarelo": "#FF3EA5",
+    "creme": "#F7F3FF",
+    "vermelho": "#4A1580",
+    "ouro": "#FFC23D",
+    "prata": "#CFC8E0",
+    "bronze": "#E8501E",
+    "neon_rosa": "#FF3EA5",
+    "neon_roxo": "#9B3DFF"
+  },
+  "fonte_titulo": "fontes/Anton-Regular.ttf",
+  "fonte_texto": "fontes/Montserrat-VF.ttf",
+  "fonte_legenda": "Anton",
+  "logo": "logo.png",
+  "moldura": "moldura.png"
+}

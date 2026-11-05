@@ -25,16 +25,28 @@ def narrar(roteiro_path, build_dir):
     if rot.get("narracao_dir"):  # narração pronta (ex.: ElevenLabs do Magnific), um arquivo por bloco
         return narracao_externa(rot, os.path.dirname(os.path.abspath(roteiro_path)), out)
     k = Kokoro(os.path.join(MODEL_DIR, "kokoro-v1.0.onnx"), os.path.join(MODEL_DIR, "voices-v1.0.bin"))
+    marca = ler_marca(rot.get("marca"))  # a marca pode definir voz e velocidade padrão do canal
+    voz = rot.get("voz") or marca.get("voz", "pm_alex")
+    if ":" in voz:  # ex.: "elevenlabs:..." é só anotação de narração externa; o Kokoro usa a voz da marca
+        voz = marca.get("voz", "pm_alex")
+    velocidade = rot.get("velocidade", marca.get("velocidade", 1.0))
     dur = {}
     for b in rot["blocos"]:
-        sinal, sr = k.create(b["narracao"], voice=rot.get("voz", "pm_alex"),
-                             speed=rot.get("velocidade", 1.0), lang="pt-br")
+        sinal, sr = k.create(b["narracao"], voice=voz, speed=velocidade, lang="pt-br")
         sinal = aparar_silencio(sinal, sr)
         sf.write(os.path.join(out, f"{b['id']}.wav"), sinal, sr)
         dur[b["id"]] = round(len(sinal) / sr, 3)
         print(b["id"], dur[b["id"]], "s")
     json.dump(dur, open(os.path.join(out, "duracoes.json"), "w"), indent=2)
     return dur
+
+
+def ler_marca(valor):
+    """Lê marcas/<nome>/marca.json (ou um caminho direto). Retorna {} se não achar."""
+    if not valor:
+        return {}
+    caminho = valor if os.path.exists(valor) else os.path.join(REPO, "marcas", valor, "marca.json")
+    return json.load(open(caminho, encoding="utf-8")) if os.path.exists(caminho) else {}
 
 
 def narracao_externa(rot, base_rot, out):
@@ -125,6 +137,71 @@ def trilha_baiao(duracao, caminho, bpm=128, sr=44100):
     mix[-fade:] *= np.linspace(1, 0, fade)
     mix[: int(0.3 * sr)] *= np.linspace(0, 1, int(0.3 * sr))
     sf.write(caminho, (mix * 0.9).astype(np.float32), sr)
+
+
+def trilha_synth(duracao, caminho, bpm=112, sr=44100):
+    """Synthwave sintético (Universo dos Clips): bumbo, palma, chimbal e baixo em arpejo menor. Sem amostras."""
+    n = int(duracao * sr)
+    mix = np.zeros(n)
+    beat = 60.0 / bpm
+    t_env = lambda dur: np.arange(int(dur * sr)) / sr
+    rng = np.random.default_rng(7)
+
+    def add(sinal, inicio):
+        i = int(inicio * sr)
+        if i >= n:
+            return
+        f = min(len(sinal), n - i)
+        mix[i:i + f] += sinal[:f]
+
+    def bumbo(vol=0.95):
+        t = t_env(0.32)
+        freq = 120 * np.exp(-t * 22) + 45
+        return vol * np.sin(2 * np.pi * np.cumsum(freq) / sr) * np.exp(-t * 9)
+
+    def palma(vol=0.30):
+        t = t_env(0.18)
+        ruido = rng.standard_normal(len(t))
+        return vol * ruido * (np.exp(-t * 28) + 0.4 * np.exp(-((t - 0.012) ** 2) / 1e-5))
+
+    def chimbal(vol=0.06):
+        t = t_env(0.05)
+        return vol * rng.standard_normal(len(t)) * np.exp(-t * 120)
+
+    def baixo(freq, dur, vol=0.20):
+        t = t_env(dur)
+        serra = 2 * (t * freq - np.floor(0.5 + t * freq))  # dente de serra
+        env = np.minimum(1, t * 120) * np.exp(-t * 4)
+        return vol * (0.6 * serra + 0.4 * np.sin(2 * np.pi * freq * t)) * env
+
+    def pad(freqs, dur, vol=0.05):
+        t = t_env(dur)
+        env = np.minimum(1, t * 2) * np.minimum(1, (dur - t) * 2 + 0.01)
+        return vol * sum(np.sin(2 * np.pi * f * t) + 0.5 * np.sin(2 * np.pi * f * 1.005 * t) for f in freqs) * env
+
+    progressao = [55.0, 43.65, 65.41, 49.0]  # Lá menor, Fá, Dó, Sol (i-VI-III-VII)
+    compasso = 4 * beat
+    c = 0
+    while c * compasso < duracao:
+        t0 = c * compasso
+        f = progressao[c % len(progressao)]
+        add(pad([f * 4, f * 4 * 1.19, f * 6], compasso), t0)
+        for s in range(4):
+            add(bumbo(), t0 + s * beat)
+            if s % 2 == 1:
+                add(palma(), t0 + s * beat)
+        for s in range(8):
+            add(chimbal(0.08 if s % 2 else 0.04), t0 + s * beat / 2)
+            add(baixo(f * (2 if s % 2 else 1), beat * 0.45), t0 + s * beat / 2)
+        c += 1
+    mix /= np.max(np.abs(mix)) + 1e-9
+    fade = int(1.2 * sr)
+    mix[-fade:] *= np.linspace(1, 0, fade)
+    mix[: int(0.3 * sr)] *= np.linspace(0, 1, int(0.3 * sr))
+    sf.write(caminho, (mix * 0.9).astype(np.float32), sr)
+
+
+TRILHAS = {"baiao": trilha_baiao, "synth": trilha_synth}
 
 
 if __name__ == "__main__":

@@ -1,0 +1,95 @@
+{
+  "slug": "2026-11-08_SHORT_detalhes-gta6_04-212-gb",
+  "titulo_interno": "Detalhes que ninguém viu #4 — 212 GB de espaço",
+  "formato": "Detalhes que ninguém viu (Short 9:16)",
+  "marca": "universo-dos-clips",
+  "publicar_em": "2026-11-08",
+  "fontes": [
+    {
+      "fato": "Lançamento à meia-noite no horário local; Nova Zelândia primeiro; PS5 exige 212 GB livres; pré-load não libera antes (03/11/2026)",
+      "url": "https://www.vice.com/en/article/gta-6-midnight-release-times-file-size-preload/"
+    },
+    {
+      "fato": "Pré-load PS5 10/11 0h local; Xbox 10/11 0h GMT; código na caixa a partir de 12/11; até 212 GB; pôster e mapa de Leonida grátis no lançamento; pôster físico US$ 0,99 (03/11/2026)",
+      "url": "https://www.videogameschronicle.com/news/rockstar-details-grand-theft-auto-6-pre-load-date-and-time-and-file-size/"
+    }
+  ],
+  "seo": {
+    "titulos": [
+      "GTA 6 PEDE 212 GB 😳 teu console aguenta?",
+      "GTA 6: LIBERA ESPAÇO AGORA 💾",
+      "GTA 6: O TAMANHO DO JOGO ASSUSTA 😱"
+    ],
+    "descricao": "212 GB de espaço — série Detalhes que ninguém viu #4.\nGTA 6 chega em 19/11/2026 para PS5 e Xbox Series X|S.\n\nImagens: Rockstar Games (material oficial, usado com comentário). Sem vazamentos e sem spoilers.\n🔔 Se inscreve e ativa o sino: clipes novos todo dia no Universo dos Clips.\n#gta6 #gtavi #universodosclips",
+    "tags": [
+      "gta 6",
+      "gta 6 tamanho",
+      "gta 6 212 gb",
+      "gta 6 ps5",
+      "gta 6 espaço",
+      "gta vi",
+      "universo dos clips"
+    ],
+    "comentario_fixado": "Quanto espaço livre tu tem hoje? 👇",
+    "video_relacionado": "GTA 6: tudo que sabemos antes do lançamento (longo) [DEFINIR LINK]"
+  },
+  "blocos": [
+    {
+      "id": "N01",
+      "cena": "vinheta",
+      "narracao": "Detalhes que ninguém viu. GTA seis!",
+      "tela": {
+        "titulo": "DETALHES QUE\nNINGUÉM VIU #4",
+        "selo": "GTA 6"
+      },
+      "legenda": "Detalhes que ninguém viu. GTA 6!"
+    },
+    {
+      "id": "N02",
+      "cena": "manchete",
+      "narracao": "Prepara o console: o GTA seis pede até duzentos e doze gigas.",
+      "tela": {
+        "chapeu": "ATENÇÃO",
+        "titulo": "212 GB",
+        "rodape": "Fonte: VGC e VICE · 03/11/2026"
+      },
+      "legenda": "Prepara o console: o GTA 6 pede até 212 GB."
+    },
+    {
+      "id": "N03",
+      "cena": "manchete",
+      "narracao": "No PS cinco, esse é o espaço livre que precisa ter, segundo o blog oficial da PlayStation.",
+      "tela": {
+        "chapeu": "PS5",
+        "titulo": "ESPAÇO\nLIVRE",
+        "rodape": "PlayStation Blog, citado pela VICE"
+      },
+      "legenda": "No PS5, esse é o espaço livre que precisa ter, segundo o blog oficial da PlayStation."
+    },
+    {
+      "id": "N04",
+      "cena": "lista",
+      "narracao": "Console apertado? Confere o espaço, apaga o que tu não joga e se organiza antes do pré-load, no dia dez.",
+      "tela": {
+        "chapeu": "CHECKLIST",
+        "titulo": "ANTES DO DIA 10",
+        "itens": [
+          "Confere o espaço livre",
+          "Apaga o que não joga",
+          "Pré-load: 10/11"
+        ]
+      },
+      "legenda": "Console apertado? Confere o espaço, apaga o que tu não joga e se organiza antes do pré-load, no dia 10."
+    },
+    {
+      "id": "N05",
+      "cena": "cta",
+      "narracao": "Teu console aguenta? Comenta quanto espaço tu tem livre!",
+      "tela": {
+        "titulo": "TEU CONSOLE\nAGUENTA?",
+        "sub": "Comenta o espaço livre",
+        "cta": "COMENTA AÍ"
+      }
+    }
+  ]
+}

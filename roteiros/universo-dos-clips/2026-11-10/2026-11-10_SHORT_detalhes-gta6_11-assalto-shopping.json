@@ -1,0 +1,93 @@
+{
+  "slug": "2026-11-10_SHORT_detalhes-gta6_11-assalto-shopping",
+  "titulo_interno": "Detalhes que ninguém viu #11 — Assalto que parece ser em shopping",
+  "formato": "Detalhes que ninguém viu (Short 9:16)",
+  "marca": "universo-dos-clips",
+  "publicar_em": "2026-11-10",
+  "fontes": [
+    {
+      "fato": "'The Launch Gallery': Vice City, Grassrivers, Leonida Keys, Port Gellhorn; assalto que parece ser em shopping; fuga de moto; possivelmente a última leva antes de 19/11 (05/11/2026)",
+      "url": "https://rockstarintel.com/39-new-gta-6-screenshots-released-for-launch/"
+    },
+    {
+      "fato": "Bios oficiais dos personagens e regiões de Leonida (06/05/2025)",
+      "url": "https://mp1st.com/news/gta-6-character-bios-screenshots-locations"
+    }
+  ],
+  "seo": {
+    "titulos": [
+      "GTA 6: ASSALTO NO SHOPPING? 💰",
+      "GTA 6: A IMAGEM DO ASSALTO 😱 e a fuga de moto",
+      "GTA 6: JASON E LUCIA EM FUGA 🏍️"
+    ],
+    "descricao": "Assalto que parece ser em shopping — série Detalhes que ninguém viu #11.\nGTA 6 chega em 19/11/2026 para PS5 e Xbox Series X|S.\n\nImagens: Rockstar Games (material oficial, usado com comentário). Sem vazamentos e sem spoilers.\n🔔 Se inscreve e ativa o sino: clipes novos todo dia no Universo dos Clips.\n#gta6 #gtavi #universodosclips",
+    "tags": [
+      "gta 6",
+      "gta 6 assalto",
+      "gta 6 heist",
+      "gta 6 jason e lucia",
+      "gta 6 imagens novas",
+      "gta vi",
+      "universo dos clips"
+    ],
+    "comentario_fixado": "Tu planeja o assalto ou entra atirando? 👇",
+    "video_relacionado": "GTA 6: tudo que sabemos antes do lançamento (longo) [DEFINIR LINK]"
+  },
+  "blocos": [
+    {
+      "id": "N01",
+      "cena": "vinheta",
+      "narracao": "Detalhes que ninguém viu. GTA seis!",
+      "tela": {
+        "titulo": "DETALHES QUE\nNINGUÉM VIU #11",
+        "selo": "GTA 6"
+      },
+      "legenda": "Detalhes que ninguém viu. GTA 6!"
+    },
+    {
+      "id": "N02",
+      "cena": "manchete",
+      "narracao": "Uma das imagens novas mostra um assalto que parece acontecer dentro de um shopping.",
+      "tela": {
+        "chapeu": "ASSALTO",
+        "titulo": "NO\nSHOPPING?",
+        "rodape": "Launch Gallery · 05/11/2026"
+      }
+    },
+    {
+      "id": "N03",
+      "cena": "imagem",
+      "narracao": "E tem Jason e Lucia fugindo de moto.",
+      "tela": {
+        "chapeu": "A FUGA",
+        "titulo": "DE MOTO",
+        "descricao": "Cena do assalto / Jason e Lucia\nfugindo de moto",
+        "credito": "Imagem: Rockstar Games"
+      }
+    },
+    {
+      "id": "N04",
+      "cena": "lista",
+      "narracao": "Na biografia oficial tem o Raul Bautista, um ladrão de banco experiente que recruta gente pra equipe. Tem ligação? Ainda não se sabe.",
+      "tela": {
+        "chapeu": "TEORIA",
+        "titulo": "TEM LIGAÇÃO?",
+        "itens": [
+          "Assalto em interior novo",
+          "Fuga de moto",
+          "Raul monta equipes"
+        ]
+      }
+    },
+    {
+      "id": "N05",
+      "cena": "cta",
+      "narracao": "Tu planeja o assalto ou entra atirando? Comenta!",
+      "tela": {
+        "titulo": "PLANEJA OU\nENTRA ATIRANDO?",
+        "sub": "Comenta aí",
+        "cta": "COMENTA AÍ"
+      }
+    }
+  ]
+}

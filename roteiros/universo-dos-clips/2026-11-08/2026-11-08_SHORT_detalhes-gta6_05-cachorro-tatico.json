@@ -1,0 +1,92 @@
+{
+  "slug": "2026-11-08_SHORT_detalhes-gta6_05-cachorro-tatico",
+  "titulo_interno": "Detalhes que ninguém viu #5 — O cachorro com equipamento de combate",
+  "formato": "Detalhes que ninguém viu (Short 9:16)",
+  "marca": "universo-dos-clips",
+  "publicar_em": "2026-11-08",
+  "fontes": [
+    {
+      "fato": "Detalhes da Launch Gallery: Vice City à noite, cachorro com equipamento de combate, poros, personagens 'Florida Man', jacaré, mergulho, Jason saindo de avião militar (05/11/2026)",
+      "url": "https://www.pcgamer.com/games/grand-theft-auto/rockstar-drops-a-pile-of-new-gta-6-launch-screenshots-featuring-dancers-combat-dogs-and-so-many-pores/"
+    }
+  ],
+  "seo": {
+    "titulos": [
+      "GTA 6 TEM CACHORRO DE COMBATE? 🐕 repara no fundo",
+      "GTA 6: O CÃO TÁTICO DAS IMAGENS NOVAS 👀",
+      "GTA 6: NINGUÉM VIU ESSE CACHORRO 🐶"
+    ],
+    "descricao": "O cachorro com equipamento de combate — série Detalhes que ninguém viu #5.\nGTA 6 chega em 19/11/2026 para PS5 e Xbox Series X|S.\n\nImagens: Rockstar Games (material oficial, usado com comentário). Sem vazamentos e sem spoilers.\n🔔 Se inscreve e ativa o sino: clipes novos todo dia no Universo dos Clips.\n#gta6 #gtavi #universodosclips",
+    "tags": [
+      "gta 6",
+      "gta 6 cachorro",
+      "gta 6 detalhes",
+      "gta 6 launch gallery",
+      "gta 6 segredos",
+      "gta vi",
+      "universo dos clips"
+    ],
+    "comentario_fixado": "Cachorro parceiro no GTA 6: sim ou não? 👇",
+    "video_relacionado": "GTA 6: tudo que sabemos antes do lançamento (longo) [DEFINIR LINK]"
+  },
+  "blocos": [
+    {
+      "id": "N01",
+      "cena": "vinheta",
+      "narracao": "Detalhes que ninguém viu. GTA seis!",
+      "tela": {
+        "titulo": "DETALHES QUE\nNINGUÉM VIU #5",
+        "selo": "GTA 6"
+      },
+      "legenda": "Detalhes que ninguém viu. GTA 6!"
+    },
+    {
+      "id": "N02",
+      "cena": "manchete",
+      "narracao": "Repara no fundo dessa imagem: tem um cachorro com equipamento de combate no GTA seis.",
+      "tela": {
+        "chapeu": "REPARA NO FUNDO",
+        "titulo": "CACHORRO\nTÁTICO?",
+        "rodape": "Launch Gallery · 05/11/2026"
+      },
+      "legenda": "Repara no fundo dessa imagem: tem um cachorro com equipamento de combate no GTA 6."
+    },
+    {
+      "id": "N03",
+      "cena": "imagem",
+      "narracao": "Ele aparece atrás da ação, numa das imagens novas, com equipamento de cão de operação.",
+      "tela": {
+        "chapeu": "NA IMAGEM OFICIAL",
+        "titulo": "OLHA ELE AQUI",
+        "descricao": "Screenshot oficial com o cão\nde equipamento tático ao fundo",
+        "credito": "Imagem: Rockstar Games"
+      }
+    },
+    {
+      "id": "N04",
+      "cena": "lista",
+      "narracao": "No GTA cinco tinha o Chop. Agora a Rockstar não explicou se esse é parceiro, inimigo ou só cenário.",
+      "tela": {
+        "chapeu": "O QUE SE SABE",
+        "titulo": "SEM CONFIRMAÇÃO",
+        "itens": [
+          "Está em imagem oficial",
+          "Função não revelada",
+          "Dia 19 a gente descobre"
+        ]
+      },
+      "legenda": "No GTA 5 tinha o Chop. Agora a Rockstar não explicou se esse é parceiro, inimigo ou só cenário."
+    },
+    {
+      "id": "N05",
+      "cena": "cta",
+      "narracao": "Tu quer cachorro parceiro no GTA seis? Comenta aí!",
+      "tela": {
+        "titulo": "CACHORRO\nPARCEIRO?",
+        "sub": "Sim ou não? Comenta",
+        "cta": "COMENTA AÍ"
+      },
+      "legenda": "Tu quer cachorro parceiro no GTA 6? Comenta aí!"
+    }
+  ]
+}

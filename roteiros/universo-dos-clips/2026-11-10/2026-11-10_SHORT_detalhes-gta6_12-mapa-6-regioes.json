@@ -1,0 +1,98 @@
+{
+  "slug": "2026-11-10_SHORT_detalhes-gta6_12-mapa-6-regioes",
+  "titulo_interno": "Detalhes que ninguém viu #12 — As 6 regiões de Leonida",
+  "formato": "Detalhes que ninguém viu (Short 9:16)",
+  "marca": "universo-dos-clips",
+  "publicar_em": "2026-11-10",
+  "fontes": [
+    {
+      "fato": "Bios oficiais dos personagens e regiões de Leonida (06/05/2025)",
+      "url": "https://mp1st.com/news/gta-6-character-bios-screenshots-locations"
+    },
+    {
+      "fato": "Pré-load PS5 10/11 0h local; Xbox 10/11 0h GMT; código na caixa a partir de 12/11; até 212 GB; pôster e mapa de Leonida grátis no lançamento; pôster físico US$ 0,99 (03/11/2026)",
+      "url": "https://www.videogameschronicle.com/news/rockstar-details-grand-theft-auto-6-pre-load-date-and-time-and-file-size/"
+    }
+  ],
+  "seo": {
+    "titulos": [
+      "GTA 6: O MAPA EM 30 SEGUNDOS 🗺️",
+      "GTA 6: AS 6 REGIÕES DE LEONIDA 🌴",
+      "GTA 6: PRA ONDE TU VAI PRIMEIRO? 🗺️"
+    ],
+    "descricao": "As 6 regiões de Leonida — série Detalhes que ninguém viu #12.\nGTA 6 chega em 19/11/2026 para PS5 e Xbox Series X|S.\n\nImagens: Rockstar Games (material oficial, usado com comentário). Sem vazamentos e sem spoilers.\n🔔 Se inscreve e ativa o sino: clipes novos todo dia no Universo dos Clips.\n#gta6 #gtavi #universodosclips",
+    "tags": [
+      "gta 6",
+      "gta 6 mapa",
+      "leonida",
+      "vice city",
+      "gta 6 regiões",
+      "gta vi",
+      "universo dos clips"
+    ],
+    "comentario_fixado": "Qual região tu explora primeiro? 👇",
+    "video_relacionado": "GTA 6: tudo que sabemos antes do lançamento (longo) [DEFINIR LINK]"
+  },
+  "blocos": [
+    {
+      "id": "N01",
+      "cena": "vinheta",
+      "narracao": "Detalhes que ninguém viu. GTA seis!",
+      "tela": {
+        "titulo": "DETALHES QUE\nNINGUÉM VIU #12",
+        "selo": "GTA 6"
+      },
+      "legenda": "Detalhes que ninguém viu. GTA 6!"
+    },
+    {
+      "id": "N02",
+      "cena": "manchete",
+      "narracao": "O mapa do GTA seis tem seis regiões já reveladas. Bora conhecer rapidinho.",
+      "tela": {
+        "chapeu": "MAPA DE LEONIDA",
+        "titulo": "6 REGIÕES",
+        "rodape": "Fonte: apresentação oficial (05/2025)"
+      },
+      "legenda": "O mapa do GTA 6 tem 6 regiões já reveladas. Bora conhecer rapidinho."
+    },
+    {
+      "id": "N03",
+      "cena": "lista",
+      "narracao": "Vice City, a cidade grande. Leonida Keys, as ilhas. E os Grassrivers, o mangue.",
+      "tela": {
+        "chapeu": "PARTE 1",
+        "titulo": "CIDADE, ILHA, MANGUE",
+        "itens": [
+          "Vice City",
+          "Leonida Keys",
+          "Grassrivers"
+        ]
+      }
+    },
+    {
+      "id": "N04",
+      "cena": "lista",
+      "narracao": "Port Gellhorn, o balneário decadente. Ambrosia, a cidade da usina de açúcar. E Mount Kalaga, o parque nacional no norte.",
+      "tela": {
+        "chapeu": "PARTE 2",
+        "titulo": "E MAIS TRÊS",
+        "itens": [
+          "Port Gellhorn",
+          "Ambrosia",
+          "Mount Kalaga"
+        ]
+      }
+    },
+    {
+      "id": "N05",
+      "cena": "cta",
+      "narracao": "No dia dezenove, a Rockstar libera o mapa de Leonida grátis pra baixar. Qual região tu vai primeiro?",
+      "tela": {
+        "titulo": "QUAL\nPRIMEIRO?",
+        "sub": "Mapa grátis no dia 19",
+        "cta": "COMENTA AÍ"
+      },
+      "legenda": "No dia 19, a Rockstar libera o mapa de Leonida grátis pra baixar. Qual região tu vai primeiro?"
+    }
+  ]
+}

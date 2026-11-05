@@ -1,0 +1,94 @@
+{
+  "slug": "2026-11-10_SHORT_detalhes-gta6_10-mergulho-jacare",
+  "titulo_interno": "Detalhes que ninguém viu #10 — Mergulho e jacaré",
+  "formato": "Detalhes que ninguém viu (Short 9:16)",
+  "marca": "universo-dos-clips",
+  "publicar_em": "2026-11-10",
+  "fontes": [
+    {
+      "fato": "Detalhes da Launch Gallery: Vice City à noite, cachorro com equipamento de combate, poros, personagens 'Florida Man', jacaré, mergulho, Jason saindo de avião militar (05/11/2026)",
+      "url": "https://www.pcgamer.com/games/grand-theft-auto/rockstar-drops-a-pile-of-new-gta-6-launch-screenshots-featuring-dancers-combat-dogs-and-so-many-pores/"
+    },
+    {
+      "fato": "Bios oficiais dos personagens e regiões de Leonida (06/05/2025)",
+      "url": "https://mp1st.com/news/gta-6-character-bios-screenshots-locations"
+    }
+  ],
+  "seo": {
+    "titulos": [
+      "GTA 6 VAI TER MERGULHO? 🤿 olha a imagem",
+      "GTA 6: MERGULHO E JACARÉ 🐊",
+      "GTA 6: O MAR DE LEONIDA 🌊"
+    ],
+    "descricao": "Mergulho e jacaré — série Detalhes que ninguém viu #10.\nGTA 6 chega em 19/11/2026 para PS5 e Xbox Series X|S.\n\nImagens: Rockstar Games (material oficial, usado com comentário). Sem vazamentos e sem spoilers.\n🔔 Se inscreve e ativa o sino: clipes novos todo dia no Universo dos Clips.\n#gta6 #gtavi #universodosclips",
+    "tags": [
+      "gta 6",
+      "gta 6 mergulho",
+      "gta 6 jacaré",
+      "gta 6 leonida keys",
+      "gta 6 grassrivers",
+      "gta vi",
+      "universo dos clips"
+    ],
+    "comentario_fixado": "Mergulhar ou fugir de jacaré? 👇",
+    "video_relacionado": "GTA 6: tudo que sabemos antes do lançamento (longo) [DEFINIR LINK]"
+  },
+  "blocos": [
+    {
+      "id": "N01",
+      "cena": "vinheta",
+      "narracao": "Detalhes que ninguém viu. GTA seis!",
+      "tela": {
+        "titulo": "DETALHES QUE\nNINGUÉM VIU #10",
+        "selo": "GTA 6"
+      },
+      "legenda": "Detalhes que ninguém viu. GTA 6!"
+    },
+    {
+      "id": "N02",
+      "cena": "manchete",
+      "narracao": "Vai dar pra mergulhar no GTA seis? Uma das imagens novas mostra mergulho com cilindro.",
+      "tela": {
+        "chapeu": "ATIVIDADES",
+        "titulo": "MERGULHO\nNO GTA 6",
+        "rodape": "Launch Gallery · 05/11/2026"
+      },
+      "legenda": "Vai dar pra mergulhar no GTA 6? Uma das imagens novas mostra mergulho com cilindro."
+    },
+    {
+      "id": "N03",
+      "cena": "imagem",
+      "narracao": "E tem jacaré, claro. É Leonida.",
+      "tela": {
+        "chapeu": "E CLARO...",
+        "titulo": "TEM JACARÉ",
+        "descricao": "Screenshot oficial:\nmergulho e/ou jacaré",
+        "credito": "Imagem: Rockstar Games"
+      }
+    },
+    {
+      "id": "N04",
+      "cena": "lista",
+      "narracao": "Na apresentação oficial, os Grassrivers são um mangue cheio de jacaré. E os Leonida Keys ficam perto de águas perigosas.",
+      "tela": {
+        "chapeu": "MAPA OFICIAL",
+        "titulo": "ÁGUA E PERIGO",
+        "itens": [
+          "Mergulho com cilindro",
+          "Jacaré nos Grassrivers",
+          "Águas perigosas nos Keys"
+        ]
+      }
+    },
+    {
+      "id": "N05",
+      "cena": "cta",
+      "narracao": "O que tu faz primeiro: mergulha ou foge do jacaré? Comenta!",
+      "tela": {
+        "titulo": "MERGULHA\nOU FOGE?",
+        "sub": "Comenta aí",
+        "cta": "COMENTA AÍ"
+      }
+    }
+  ]
+}

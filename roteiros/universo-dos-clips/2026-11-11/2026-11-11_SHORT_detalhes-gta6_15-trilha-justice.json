@@ -1,0 +1,94 @@
+{
+  "slug": "2026-11-11_SHORT_detalhes-gta6_15-trilha-justice",
+  "titulo_interno": "Detalhes que ninguém viu #15 — Trilha original do Justice",
+  "formato": "Detalhes que ninguém viu (Short 9:16)",
+  "marca": "universo-dos-clips",
+  "publicar_em": "2026-11-11",
+  "fontes": [
+    {
+      "fato": "Trilha original do Justice: 11/12, 30 faixas, CD e vinil; 'Pusher' com Gesaffelstein (29/10/2026)",
+      "url": "https://www.gamerfuzion.com/gta-6-original-score-justice-album-december-11-pusher-gesaffelstein/"
+    },
+    {
+      "fato": "Justice e Gesaffelstein lançam 'Pusher' antes do álbum da trilha",
+      "url": "https://www.beatportal.com/articles/1705765-justice-tap-gesaffelstein-for-first-collab-pusher-ahead-of-gta-vi-score-album"
+    }
+  ],
+  "seo": {
+    "titulos": [
+      "GTA 6: A TRILHA É DO JUSTICE 🎧",
+      "GTA 6: 30 FAIXAS ORIGINAIS 🎶 sai dia 11/12",
+      "GTA 6: JÁ SAIU A PRIMEIRA MÚSICA 🔊"
+    ],
+    "descricao": "Trilha original do Justice — série Detalhes que ninguém viu #15.\nGTA 6 chega em 19/11/2026 para PS5 e Xbox Series X|S.\n\nImagens: Rockstar Games (material oficial, usado com comentário). Sem vazamentos e sem spoilers.\n🔔 Se inscreve e ativa o sino: clipes novos todo dia no Universo dos Clips.\n#gta6 #gtavi #universodosclips",
+    "tags": [
+      "gta 6",
+      "gta 6 trilha sonora",
+      "justice",
+      "gesaffelstein",
+      "pusher",
+      "gta vi",
+      "universo dos clips"
+    ],
+    "comentario_fixado": "Rádio do jogo ou trilha original? 👇",
+    "video_relacionado": "GTA 6: tudo que sabemos antes do lançamento (longo) [DEFINIR LINK]"
+  },
+  "blocos": [
+    {
+      "id": "N01",
+      "cena": "vinheta",
+      "narracao": "Detalhes que ninguém viu. GTA seis!",
+      "tela": {
+        "titulo": "DETALHES QUE\nNINGUÉM VIU #15",
+        "selo": "GTA 6"
+      },
+      "legenda": "Detalhes que ninguém viu. GTA 6!"
+    },
+    {
+      "id": "N02",
+      "cena": "manchete",
+      "narracao": "A trilha original do GTA seis é do Justice, a dupla francesa de música eletrônica.",
+      "tela": {
+        "chapeu": "TRILHA SONORA",
+        "titulo": "JUSTICE\nNO GTA 6",
+        "rodape": "Fonte: GamerFuzion · 29/10/2026"
+      },
+      "legenda": "A trilha original do GTA 6 é do Justice, a dupla francesa de música eletrônica."
+    },
+    {
+      "id": "N03",
+      "cena": "lista",
+      "narracao": "São trinta faixas, lançamento dia onze de dezembro, nos streamings, em CD e em vinil.",
+      "tela": {
+        "chapeu": "O ÁLBUM",
+        "titulo": "11 DE DEZEMBRO",
+        "itens": [
+          "30 faixas",
+          "Streaming em 11/12",
+          "CD e vinil"
+        ]
+      },
+      "legenda": "São 30 faixas, lançamento dia 11 de dezembro, nos streamings, em CD e em vinil."
+    },
+    {
+      "id": "N04",
+      "cena": "manchete",
+      "narracao": "E a primeira já saiu: Pusher, com participação do Gesaffelstein.",
+      "tela": {
+        "chapeu": "JÁ SAIU",
+        "titulo": "PUSHER",
+        "rodape": "Justice + Gesaffelstein"
+      }
+    },
+    {
+      "id": "N05",
+      "cena": "cta",
+      "narracao": "Tu prefere a rádio do jogo ou a trilha original? Comenta!",
+      "tela": {
+        "titulo": "RÁDIO OU\nTRILHA?",
+        "sub": "Comenta aí",
+        "cta": "COMENTA AÍ"
+      }
+    }
+  ]
+}

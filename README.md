@@ -1,6 +1,6 @@
 # Motor de Shorts — Criar Agency
 
-Gera Shorts narrados (9:16, 1080x1920, 30 fps) a partir de um roteiro em JSON: narração com voz aberta em pt-BR, cenas no padrão visual da marca, legenda dinâmica, trilha própria, transições e exportação. Feito para o **Universo do Piseiro** (Notícia do Forró, Top 10, Universo Explica) e pronto para os canais irmãos: basta criar uma pasta nova em `marcas/`.
+Gera Shorts narrados (9:16, 1080x1920, 30 fps) a partir de um roteiro em JSON: narração com voz aberta em pt-BR, cenas no padrão visual da marca, legenda dinâmica, trilha própria, transições e exportação. Feito para o **Universo do Piseiro** (Notícia do Forró, Top 10, Universo Explica) e já usado pelo **Universo dos Clips** (`marcas/universo-dos-clips`, roteiros em `roteiros/universo-dos-clips/`). Para outro canal irmão, basta criar uma pasta nova em `marcas/`.
 
 ## Como usar
 
@@ -40,7 +40,7 @@ Os templates desenhados no Photoshop (ver `docs/Guia_Templates_Shorts_Universo_d
 | Recorte de fundo das fotos | rembg (modelo isnet-general-use) | MIT |
 | Montagem | FFmpeg + libass | LGPL/GPL |
 | Fontes | Alfa Slab One, Zilla Slab, Anton, Montserrat | SIL OFL 1.1 (licenças em cada pasta de fontes) |
-| Trilha | Baião sintetizado pelo próprio motor | sem amostras de terceiros |
+| Trilha | Baião (Piseiro) e synthwave (Clips) sintetizados pelo próprio motor | sem amostras de terceiros |
 
 Verifique as licenças de novas fontes antes de usar em canal monetizado.
 

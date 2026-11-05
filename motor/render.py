@@ -13,7 +13,7 @@ import sys
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
 sys.path.insert(0, os.path.dirname(__file__))
-from audio import trilha_baiao  # noqa: E402
+from audio import TRILHAS  # noqa: E402
 
 W, H, FPS = 1080, 1920, 30
 T = 0.25  # duração da transição entre cenas (s)
@@ -30,7 +30,9 @@ COR = {
 }
 LOGO = None       # PNG do logo (marca.json)
 MOLDURA = None    # PNG transparente da moldura oficial do Short (logo + @), vai por cima do vídeo
-ESTILO = "sol"    # "sol" (provisório) ou "listras" (Universo do Piseiro)
+ESTILO = "sol"    # "sol" (provisório), "listras" (Universo do Piseiro) ou "neon" (Universo dos Clips)
+TRILHA = "baiao"  # chave de audio.TRILHAS: "baiao" (Piseiro) ou "synth" (Clips)
+ASSINATURA = "UNIVERSO DO PISEIRO  ·  NOTÍCIA DO FORRÓ"  # texto da faixa quando não há logo nem moldura
 FONTE_LEG = "Anton"
 ASS_FONT_DIR = FONT_DIR
 DESLOC = 0        # empurra o conteúdo para baixo quando a moldura ocupa o topo
@@ -51,7 +53,7 @@ def carregar_marca(caminho):
     Ex.: {"cores": {"noite": "#0A0605"}, "fonte_titulo": "/x/AlfaSlab.ttf", "fonte_texto": "/x/Zilla.ttf",
           "fonte_legenda": "Alfa Slab One", "logo": "/x/logo.png", "moldura": "/x/moldura.png",
           "estilo_fundo": "listras"}"""
-    global ANTON, MONT, LOGO, MOLDURA, ESTILO, FONTE_LEG, ASS_FONT_DIR, DESLOC
+    global ANTON, MONT, LOGO, MOLDURA, ESTILO, FONTE_LEG, ASS_FONT_DIR, DESLOC, TRILHA, ASSINATURA
     caminho = resolver_marca(caminho)
     if not caminho:
         return
@@ -69,6 +71,8 @@ def carregar_marca(caminho):
     LOGO = m.get("logo") or None
     MOLDURA = m.get("moldura") or None
     ESTILO = m.get("estilo_fundo", ESTILO)
+    TRILHA = m.get("trilha", TRILHA)
+    ASSINATURA = m.get("assinatura", ASSINATURA)
     FONTE_LEG = m.get("fonte_legenda", FONTE_LEG)
     ASS_FONT_DIR = os.path.dirname(ANTON)
     DESLOC = 90 if MOLDURA else 0
@@ -187,9 +191,66 @@ def fundo_listras(semente=7, brilho=None):
     return Image.blend(img, ruido, 0.035)
 
 
+def fundo_neon(semente=7, brilho=None):
+    """Fundo do Universo dos Clips: preto-roxo, listras diagonais laranja→rosa da rede Universo,
+    halos neon rosa/roxo e grade de horizonte (synthwave) no rodapé."""
+    import random
+
+    import numpy as np
+    xx, yy = np.meshgrid(np.linspace(0, 1, W), np.linspace(0, 1, H))
+    n0, n1 = np.array(COR["noite"], np.float32), np.array(COR["noite2"], np.float32)
+    arr = n0[None, None, :] * (1 - yy[..., None]) + n1[None, None, :] * yy[..., None]
+    # listras diagonais (marca da rede), só no canto superior direito
+    big = Image.new("L", (int(W * 1.8), int(H * 1.4)), 0)
+    db = ImageDraw.Draw(big)
+    for y in range(0, big.height, 54):
+        db.rectangle((0, y, big.width, y + 22), fill=255)
+    big = big.rotate(-14, resample=Image.BICUBIC)
+    x0, y0 = (big.width - W) // 2, (big.height - H) // 2
+    mask = np.asarray(big.crop((x0, y0, x0 + W, y0 + H)), dtype=np.float32) / 255
+    k = np.clip(1.1 * xx - 0.9 * yy + 0.05, 0, 1) ** 1.6
+    rosa, laranja = np.array(COR["neon_rosa"], np.float32), np.array(COR["sol"], np.float32)
+    cor = laranja[None, None, :] * (1 - xx[..., None]) + rosa[None, None, :] * xx[..., None]
+    alfa = (mask * k * 0.75)[..., None]
+    arr = arr * (1 - alfa) + cor * alfa
+    # halos neon: roxo à esquerda/baixo, rosa à direita
+    roxo = np.array(COR["neon_roxo"], np.float32)
+    for cx, cy, r, c, f in ((0.05, 0.78, 0.65, roxo, 0.45), (1.0, 0.35, 0.55, rosa, 0.25)):
+        dist = np.sqrt(((xx - cx) * W) ** 2 + ((yy - cy) * H) ** 2) / (r * H)
+        g = (np.clip(1 - dist, 0, 1) ** 2 * f)[..., None]
+        arr = arr * (1 - g) + c[None, None, :] * g
+    if brilho:
+        cx, cy, r = brilho
+        dist = np.sqrt((xx * W - cx) ** 2 + (yy * H - cy) ** 2)
+        g = (np.clip(1 - dist / r, 0, 1) ** 2 * 0.5)[..., None]
+        arr = arr * (1 - g) + rosa[None, None, :] * g
+    img = Image.fromarray(arr.clip(0, 255).astype("uint8"))
+    # grade synthwave no rodapé (abaixo da área de legenda, não disputa leitura)
+    camada = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    dc = ImageDraw.Draw(camada)
+    horizonte, base = 1640, H
+    for i in range(-14, 15):
+        dc.line([(W / 2 + i * 22, horizonte), (W / 2 + i * 260, base)], fill=COR["neon_roxo"] + (70,), width=2)
+    for j in range(1, 9):
+        y = horizonte + (base - horizonte) * (j / 8) ** 1.8
+        dc.line([(0, y), (W, y)], fill=COR["neon_roxo"] + (70,), width=2)
+    dc.line([(0, horizonte), (W, horizonte)], fill=COR["neon_rosa"] + (140,), width=3)
+    img = Image.alpha_composite(img.convert("RGBA"), camada).convert("RGB")
+    # partículas
+    d = ImageDraw.Draw(img)
+    rnd = random.Random(semente)
+    for _ in range(90):
+        x, y, r = rnd.randint(0, W), rnd.randint(0, H), rnd.choice([1, 1, 2])
+        d.ellipse((x - r, y - r, x + r, y + r), fill=rnd.choice([COR["creme"], COR["neon_rosa"], COR["prata"]]))
+    ruido = Image.effect_noise((W, H), 20).convert("RGB")
+    return Image.blend(img, ruido, 0.03)
+
+
 def fundo(centro_sol=(540, 1300), raios=True):
     if ESTILO == "listras":
         return fundo_listras(semente=centro_sol[1])
+    if ESTILO == "neon":
+        return fundo_neon(semente=centro_sol[1])
     img = Image.new("RGB", (W, H), COR["noite"])
     d = ImageDraw.Draw(img)
     for y in range(H):  # degradê noite
@@ -221,7 +282,7 @@ def faixa_marca(d, img=None):
         colar_logo(img, W / 2, 110, altura=90)
     else:
         f = fonte(MONT, 34, 800)
-        texto = "UNIVERSO DO PISEIRO  ·  NOTÍCIA DO FORRÓ"
+        texto = ASSINATURA
         d.text(((W - f.getlength(texto)) / 2, 150), texto, font=f, fill=COR["amarelo"])
     # zigue-zague de xilogravura
     y = 210
@@ -230,8 +291,8 @@ def faixa_marca(d, img=None):
 
 
 def cena_vinheta(tela):
-    if ESTILO == "listras" and LOGO:
-        img = fundo_listras(semente=3, brilho=(540, 760, 620))
+    if ESTILO in ("listras", "neon") and LOGO:
+        img = (fundo_neon if ESTILO == "neon" else fundo_listras)(semente=3, brilho=(540, 760, 620))
         d = ImageDraw.Draw(img)
         y = colar_logo(img, W / 2, 430, largura=780)
         titulo = tela["titulo"].replace("\n", " ") if len(tela["titulo"]) < 20 else tela["titulo"]
@@ -365,8 +426,47 @@ def cena_cta(tela):
     return img
 
 
+def cena_imagem(tela):
+    """Imagem oficial (screenshot, frame autorizado) em destaque + chapéu, título e crédito.
+    tela: chapeu, titulo, credito, imagem (opcional), descricao (o que entra no quadro, se não houver imagem).
+    Sem `imagem`, o motor procura imagens/<slug>_<id>.jpg|png ao lado do roteiro; se não houver,
+    desenha o quadro com a descrição para o editor encaixar a imagem no CapCut
+    (quadro de 900x560 px, logo abaixo do título; a posição exata sai em timeline.json)."""
+    img = fundo()
+    d = ImageDraw.Draw(img)
+    faixa_marca(d, img)
+    y = pilula(d, W / 2, 300 + DESLOC // 2, tela["chapeu"], fonte(MONT, 44, 800), COR["amarelo"], COR["noite"])
+    f = caber(tela["titulo"], ANTON, 110, 900)
+    y = texto_centro(d, y + 20, tela["titulo"], f, COR["creme"], sombra=COR["vermelho"])
+    topo = max(560, int(y) + 50)
+    quadro = (90, topo, 990, topo + 560)
+    QUADROS.append(quadro)
+    if tela.get("imagem"):
+        caminho = tela["imagem"] if os.path.isabs(tela["imagem"]) else os.path.join(BASE_ROT, tela["imagem"])
+        foto = Image.open(caminho).convert("RGB")
+        qw, qh = quadro[2] - quadro[0], quadro[3] - quadro[1]
+        esc = max(qw / foto.width, qh / foto.height)
+        foto = foto.resize((int(foto.width * esc) + 1, int(foto.height * esc) + 1), Image.LANCZOS)
+        ox, oy = (foto.width - qw) // 2, (foto.height - qh) // 2
+        foto = foto.crop((ox, oy, ox + qw, oy + qh))
+        mascara = Image.new("L", (qw, qh), 0)
+        ImageDraw.Draw(mascara).rounded_rectangle((0, 0, qw, qh), radius=28, fill=255)
+        img.paste(foto, quadro[:2], mascara)
+    else:
+        d.rounded_rectangle(quadro, radius=28, fill=COR["noite2"])
+        fd = caber(tela.get("descricao", "IMAGEM OFICIAL"), MONT, 40, 760, 700)
+        texto_centro(d, topo + 220, "[ IMAGEM ]\n" + tela.get("descricao", "IMAGEM OFICIAL"), fd, COR["prata"])
+    d.rounded_rectangle(quadro, radius=28, outline=COR["neon_rosa"] if "neon_rosa" in COR else COR["sol"], width=6)
+    fc = fonte(MONT, 30, 600)
+    cred = tela.get("credito", "")
+    d.text(((W - fc.getlength(cred)) / 2, quadro[3] + 22), cred, font=fc, fill=COR["prata"])
+    return img
+
+
+BASE_ROT = "."
+QUADROS = []
 CENAS = {"vinheta": cena_vinheta, "manchete": cena_manchete, "podio": cena_podio,
-         "lista": cena_lista, "cta": cena_cta}
+         "lista": cena_lista, "cta": cena_cta, "imagem": cena_imagem}
 
 
 def ts(seg, srt=False):
@@ -437,9 +537,11 @@ def run(cmd):
 
 
 def main(roteiro_path, build):
-    global PASTA_IMG
+    global PASTA_IMG, BASE_ROT
     rot = json.load(open(roteiro_path, encoding="utf-8"))
     base_rot = os.path.dirname(os.path.abspath(roteiro_path))
+    BASE_ROT = base_rot
+    QUADROS.clear()
     carregar_marca(rot.get("marca") or os.path.join(base_rot, "marca.json"))
     os.makedirs(os.path.join(build, "01_audio"), exist_ok=True)
     dur = json.load(open(os.path.join(build, "01_audio", "duracoes.json")))
@@ -483,6 +585,12 @@ def main(roteiro_path, build):
                     raise ValueError("Arte de cena deve ter 1080 × 1920 px")
                 img = arte.convert("RGB")
         else:
+            if b["cena"] == "imagem" and not b["tela"].get("imagem"):
+                for ext in (".jpg", ".jpeg", ".png", ".webp"):
+                    cand = os.path.join(base_rot, "imagens", f"{rot['slug']}_{b['id']}{ext}")
+                    if os.path.exists(cand):
+                        b["tela"]["imagem"] = cand
+                        break
             img = CENAS[b["cena"]](b["tela"])
         png = os.path.join(pasta_img, f"{b['id']}_{b['cena']}.png")
         img.save(png)
@@ -516,8 +624,8 @@ def main(roteiro_path, build):
     filtro.append(f"{ultimo}ass={ass}:fontsdir={ASS_FONT_DIR}[v]")
 
     # 4) áudio: narrações nos tempos + trilha baixa
-    trilha = os.path.join(build, "01_audio", "trilha_baiao.wav")
-    trilha_baiao(total, trilha)
+    trilha = os.path.join(build, "01_audio", f"trilha_{TRILHA}.wav")
+    TRILHAS[TRILHA](total, trilha)
     base = len(clipes) + (1 if MOLDURA else 0)
     entradas += ["-i", trilha]
     for b in blocos:
@@ -548,7 +656,7 @@ def main(roteiro_path, build):
             f"afade=t=in:d=0.15,afade=t=out:st={lg - 0.35:.2f}:d=0.35,adelay={ms}|{ms},apad[m{prox}]")
         musicas.append(f"[m{prox}]")
         prox += 1
-    # trilha de baião some nas janelas de música
+    # trilha some nas janelas de música
     corte = "".join(f"*(1-between(t,{a:.2f},{b:.2f}))" for a, b in janelas)
     filtro.append(f"[{base}:a]volume='0.16{corte}':eval=frame[bg]")
     camadas = ["[voz]", "[bg]"] + musicas
@@ -560,7 +668,7 @@ def main(roteiro_path, build):
          "-t", f"{total:.3f}", "-r", str(FPS), "-c:v", "libx264", "-preset", "veryfast", "-crf", "19",
          "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "192k", "-ar", "44100", "-movflags", "+faststart", saida])
     json.dump({"duracao_total": total, "cenas": dict(zip([b["id"] for b in blocos], dcena)),
-               "inicio_narracao": inicios}, open(os.path.join(build, "timeline.json"), "w"), indent=2)
+               "inicio_narracao": inicios, "quadros_imagem_px": QUADROS}, open(os.path.join(build, "timeline.json"), "w"), indent=2)
     print("ok:", saida)
 
 

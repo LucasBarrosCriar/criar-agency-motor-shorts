@@ -1,0 +1,89 @@
+{
+  "slug": "2026-11-09_SHORT_detalhes-gta6_08-florida-man",
+  "titulo_interno": "Detalhes que ninguém viu #8 — Os personagens 'Florida Man' das imagens novas",
+  "formato": "Detalhes que ninguém viu (Short 9:16)",
+  "marca": "universo-dos-clips",
+  "publicar_em": "2026-11-09",
+  "fontes": [
+    {
+      "fato": "Detalhes da Launch Gallery: Vice City à noite, cachorro com equipamento de combate, poros, personagens 'Florida Man', jacaré, mergulho, Jason saindo de avião militar (05/11/2026)",
+      "url": "https://www.pcgamer.com/games/grand-theft-auto/rockstar-drops-a-pile-of-new-gta-6-launch-screenshots-featuring-dancers-combat-dogs-and-so-many-pores/"
+    }
+  ],
+  "seo": {
+    "titulos": [
+      "GTA 6 NO MODO FLORIDA MAN 🐊 os NPCs mais bizarros",
+      "GTA 6: OS PERSONAGENS MAIS ESTRANHOS DAS IMAGENS 😂",
+      "GTA 6: REPARA NESSES NPCs 👀"
+    ],
+    "descricao": "Os personagens 'Florida Man' das imagens novas — série Detalhes que ninguém viu #8.\nGTA 6 chega em 19/11/2026 para PS5 e Xbox Series X|S.\n\nImagens: Rockstar Games (material oficial, usado com comentário). Sem vazamentos e sem spoilers.\n🔔 Se inscreve e ativa o sino: clipes novos todo dia no Universo dos Clips.\n#gta6 #gtavi #universodosclips",
+    "tags": [
+      "gta 6",
+      "gta 6 florida man",
+      "gta 6 npc",
+      "gta 6 personagens",
+      "gta 6 detalhes",
+      "gta vi",
+      "universo dos clips"
+    ],
+    "comentario_fixado": "Qual desses tu encontraria na tua cidade? 👇",
+    "video_relacionado": "GTA 6: tudo que sabemos antes do lançamento (longo) [DEFINIR LINK]"
+  },
+  "blocos": [
+    {
+      "id": "N01",
+      "cena": "vinheta",
+      "narracao": "Detalhes que ninguém viu. GTA seis!",
+      "tela": {
+        "titulo": "DETALHES QUE\nNINGUÉM VIU #8",
+        "selo": "GTA 6"
+      },
+      "legenda": "Detalhes que ninguém viu. GTA 6!"
+    },
+    {
+      "id": "N02",
+      "cena": "manchete",
+      "narracao": "Leonida é a Flórida da Rockstar. E os personagens das imagens novas provam isso.",
+      "tela": {
+        "chapeu": "PERSONAGENS",
+        "titulo": "MODO\nFLORIDA MAN",
+        "rodape": "Launch Gallery · 05/11/2026"
+      }
+    },
+    {
+      "id": "N03",
+      "cena": "imagem",
+      "narracao": "Tem um cara com um olho de cada cor, do lado de dois répteis mortos.",
+      "tela": {
+        "chapeu": "O PRIMEIRO",
+        "titulo": "UM OLHO DE CADA COR",
+        "descricao": "Personagem com heterocromia\nao lado de dois répteis",
+        "credito": "Imagem: Rockstar Games"
+      }
+    },
+    {
+      "id": "N04",
+      "cena": "lista",
+      "narracao": "Tem um sujeito de mullet, com faca, ameaçando o Jason. E policial de bigode com óculos aviador.",
+      "tela": {
+        "chapeu": "E TEM MAIS",
+        "titulo": "A GALERA",
+        "itens": [
+          "Olho de cada cor + répteis",
+          "Mullet com faca",
+          "Bigode e óculos aviador"
+        ]
+      }
+    },
+    {
+      "id": "N05",
+      "cena": "cta",
+      "narracao": "Qual desses tu encontraria na tua cidade? Comenta!",
+      "tela": {
+        "titulo": "QUAL É O\nMAIS DOIDO?",
+        "sub": "Comenta aí",
+        "cta": "COMENTA AÍ"
+      }
+    }
+  ]
+}

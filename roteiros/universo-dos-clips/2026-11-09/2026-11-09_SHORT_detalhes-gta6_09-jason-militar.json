@@ -1,0 +1,93 @@
+{
+  "slug": "2026-11-09_SHORT_detalhes-gta6_09-jason-militar",
+  "titulo_interno": "Detalhes que ninguém viu #9 — Jason saindo de avião militar",
+  "formato": "Detalhes que ninguém viu (Short 9:16)",
+  "marca": "universo-dos-clips",
+  "publicar_em": "2026-11-09",
+  "fontes": [
+    {
+      "fato": "Detalhes da Launch Gallery: Vice City à noite, cachorro com equipamento de combate, poros, personagens 'Florida Man', jacaré, mergulho, Jason saindo de avião militar (05/11/2026)",
+      "url": "https://www.pcgamer.com/games/grand-theft-auto/rockstar-drops-a-pile-of-new-gta-6-launch-screenshots-featuring-dancers-combat-dogs-and-so-many-pores/"
+    },
+    {
+      "fato": "Bios oficiais dos personagens e regiões de Leonida (06/05/2025)",
+      "url": "https://mp1st.com/news/gta-6-character-bios-screenshots-locations"
+    }
+  ],
+  "seo": {
+    "titulos": [
+      "GTA 6: JASON EM MISSÃO MILITAR? 🪖",
+      "GTA 6: A IMAGEM DO AVIÃO MILITAR 😱",
+      "GTA 6: O PASSADO DO JASON APARECEU 👀"
+    ],
+    "descricao": "Jason saindo de avião militar — série Detalhes que ninguém viu #9.\nGTA 6 chega em 19/11/2026 para PS5 e Xbox Series X|S.\n\nImagens: Rockstar Games (material oficial, usado com comentário). Sem vazamentos e sem spoilers.\n🔔 Se inscreve e ativa o sino: clipes novos todo dia no Universo dos Clips.\n#gta6 #gtavi #universodosclips",
+    "tags": [
+      "gta 6",
+      "gta 6 jason",
+      "jason duval",
+      "gta 6 história",
+      "gta 6 imagens novas",
+      "gta vi",
+      "universo dos clips"
+    ],
+    "comentario_fixado": "Missão militar no GTA 6: curtiu? 👇",
+    "video_relacionado": "GTA 6: tudo que sabemos antes do lançamento (longo) [DEFINIR LINK]"
+  },
+  "blocos": [
+    {
+      "id": "N01",
+      "cena": "vinheta",
+      "narracao": "Detalhes que ninguém viu. GTA seis!",
+      "tela": {
+        "titulo": "DETALHES QUE\nNINGUÉM VIU #9",
+        "selo": "GTA 6"
+      },
+      "legenda": "Detalhes que ninguém viu. GTA 6!"
+    },
+    {
+      "id": "N02",
+      "cena": "manchete",
+      "narracao": "Numa das imagens novas, o Jason desce de um avião militar direto pro meio de um tiroteio.",
+      "tela": {
+        "chapeu": "JASON DUVAL",
+        "titulo": "MISSÃO\nMILITAR?",
+        "rodape": "Launch Gallery · 05/11/2026"
+      }
+    },
+    {
+      "id": "N03",
+      "cena": "imagem",
+      "narracao": "Ele tá com equipamento tático completo.",
+      "tela": {
+        "chapeu": "NA IMAGEM OFICIAL",
+        "titulo": "EQUIPAMENTO TÁTICO",
+        "descricao": "Jason com equipamento tático\ndescendo do avião militar",
+        "credito": "Imagem: Rockstar Games"
+      }
+    },
+    {
+      "id": "N04",
+      "cena": "lista",
+      "narracao": "E faz sentido: na biografia oficial, o Jason é ex-soldado. A missão em si, a Rockstar ainda não explicou.",
+      "tela": {
+        "chapeu": "BIOGRAFIA OFICIAL",
+        "titulo": "EX-SOLDADO",
+        "itens": [
+          "Bio oficial: ex-soldado",
+          "Equipamento tático",
+          "Missão sem detalhes"
+        ]
+      }
+    },
+    {
+      "id": "N05",
+      "cena": "cta",
+      "narracao": "Missão de guerra no GTA: tu curte ou prefere o crime de rua? Comenta!",
+      "tela": {
+        "titulo": "GUERRA OU\nRUA?",
+        "sub": "Comenta aí",
+        "cta": "COMENTA AÍ"
+      }
+    }
+  ]
+}

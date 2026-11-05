@@ -1,0 +1,95 @@
+{
+  "slug": "2026-11-07_SHORT_detalhes-gta6_02-pre-load",
+  "titulo_interno": "Detalhes que ninguém viu #2 — Datas do pré-load",
+  "formato": "Detalhes que ninguém viu (Short 9:16)",
+  "marca": "universo-dos-clips",
+  "publicar_em": "2026-11-07",
+  "fontes": [
+    {
+      "fato": "Pré-load PS5 10/11 0h local; Xbox 10/11 0h GMT; código na caixa a partir de 12/11; até 212 GB; pôster e mapa de Leonida grátis no lançamento; pôster físico US$ 0,99 (03/11/2026)",
+      "url": "https://www.videogameschronicle.com/news/rockstar-details-grand-theft-auto-6-pre-load-date-and-time-and-file-size/"
+    },
+    {
+      "fato": "Lançamento à meia-noite no horário local; Nova Zelândia primeiro; PS5 exige 212 GB livres; pré-load não libera antes (03/11/2026)",
+      "url": "https://www.vice.com/en/article/gta-6-midnight-release-times-file-size-preload/"
+    }
+  ],
+  "seo": {
+    "titulos": [
+      "GTA 6: PRÉ-LOAD COMEÇA DIA 10 ⏳ anota o horário",
+      "GTA 6: QUANDO BAIXAR NO PS5 E NO XBOX 🎮",
+      "GTA 6: DÁ PRA BAIXAR ANTES? ⬇️"
+    ],
+    "descricao": "Datas do pré-load — série Detalhes que ninguém viu #2.\nGTA 6 chega em 19/11/2026 para PS5 e Xbox Series X|S.\n\nImagens: Rockstar Games (material oficial, usado com comentário). Sem vazamentos e sem spoilers.\n🔔 Se inscreve e ativa o sino: clipes novos todo dia no Universo dos Clips.\n#gta6 #gtavi #universodosclips",
+    "tags": [
+      "gta 6",
+      "gta 6 pre load",
+      "gta 6 pré-load",
+      "gta 6 ps5",
+      "gta 6 xbox",
+      "gta 6 lançamento",
+      "gta vi",
+      "universo dos clips"
+    ],
+    "comentario_fixado": "Tu comprou digital ou física? 👇",
+    "video_relacionado": "GTA 6: tudo que sabemos antes do lançamento (longo) [DEFINIR LINK]"
+  },
+  "blocos": [
+    {
+      "id": "N01",
+      "cena": "vinheta",
+      "narracao": "Detalhes que ninguém viu. GTA seis!",
+      "tela": {
+        "titulo": "DETALHES QUE\nNINGUÉM VIU #2",
+        "selo": "GTA 6"
+      },
+      "legenda": "Detalhes que ninguém viu. GTA 6!"
+    },
+    {
+      "id": "N02",
+      "cena": "manchete",
+      "narracao": "Anota aí: o pré-load do GTA seis começa dia dez de novembro.",
+      "tela": {
+        "chapeu": "PRÉ-LOAD",
+        "titulo": "DIA 10/11",
+        "rodape": "Fonte: VGC · 03/11/2026"
+      },
+      "legenda": "Anota aí: o pré-load do GTA 6 começa dia 10 de novembro."
+    },
+    {
+      "id": "N03",
+      "cena": "lista",
+      "narracao": "No PS cinco, à meia-noite do teu horário. No Xbox, à meia-noite de Londres, que é nove da noite do dia nove no horário de Brasília.",
+      "tela": {
+        "chapeu": "HORÁRIOS",
+        "titulo": "PS5 E XBOX",
+        "itens": [
+          "PS5: 10/11, 0h local",
+          "Xbox: 9/11, 21h Brasília",
+          "Caixa: código a partir de 12/11"
+        ]
+      },
+      "legenda": "No PS5, à meia-noite do teu horário. No Xbox, à meia-noite de Londres, que é 9 da noite do dia 9 no horário de Brasília."
+    },
+    {
+      "id": "N04",
+      "cena": "manchete",
+      "narracao": "É pra quem comprou digital. E baixar antes não libera o jogo mais cedo, viu?",
+      "tela": {
+        "chapeu": "IMPORTANTE",
+        "titulo": "NÃO LIBERA\nANTES",
+        "rodape": "Fonte: VICE · 03/11/2026"
+      }
+    },
+    {
+      "id": "N05",
+      "cena": "cta",
+      "narracao": "Tu vai baixar no primeiro minuto? Comenta aí!",
+      "tela": {
+        "titulo": "E AÍ?",
+        "sub": "Vai baixar no primeiro minuto?",
+        "cta": "COMENTA AÍ"
+      }
+    }
+  ]
+}
