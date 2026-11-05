@@ -3,7 +3,7 @@
   "titulo_interno": "Notícia do Forró — Tarcísio do Acordeon fez 33 anos",
   "formato": "Notícia do Forró (Short 9:16)",
   "marca": "universo-do-piseiro",
-  "voz": "pm_alex",
+  "voz": "elevenlabs:Tiago Lima (Magnific, eleven_v4)",
   "velocidade": 0.92,
   "fontes": [
     {
@@ -83,7 +83,7 @@
     {
       "id": "N04",
       "cena": "manchete",
-      "narracao": "No começo de dois mil e vinte e um, Meia Noite, a famosa Cê Tem Meu WhatsApp, chegou ao primeiro lugar do Top Brasil do Spótifai.",
+      "narracao": "No começo de dois mil e vinte e um, Meia Noite, a famosa Cê Tem Meu WhatsApp, chegou ao primeiro lugar do Top Brasil do Spotify.",
       "legenda": "No começo de 2021, Meia Noite, a famosa Cê Tem Meu WhatsApp, chegou ao 1º lugar do Top Brasil do Spotify.",
       "tela": {
         "chapeu": "O ESTOURO",
@@ -94,7 +94,7 @@
     {
       "id": "N05",
       "cena": "lista",
-      "narracao": "Na mesma época, ele tinha cinco músicas no Top duzentos do Spótifai Brasil, como Nêga e Roxinho, com Vitor Fernandes.",
+      "narracao": "Na mesma época, ele tinha cinco músicas no Top duzentos do Spotify Brasil, como Nêga e Roxinho, com Vitor Fernandes.",
       "legenda": "Na mesma época, ele tinha cinco músicas no Top 200 do Spotify Brasil, como Nêga e Roxinho, com Vitor Fernandes.",
       "tela": {
         "chapeu": "OS NÚMEROS",
@@ -116,5 +116,6 @@
         "cta": "REPERTÓRIO COMPLETO NO CANAL"
       }
     }
-  ]
+  ],
+  "narracao_dir": "narracao/2026-11-05_SHORT_noticia-do-forro_tarcisio-33-anos"
 }

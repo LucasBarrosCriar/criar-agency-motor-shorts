@@ -22,6 +22,8 @@ def narrar(roteiro_path, build_dir):
     rot = json.load(open(roteiro_path, encoding="utf-8"))
     out = os.path.join(build_dir, "01_audio")
     os.makedirs(out, exist_ok=True)
+    if rot.get("narracao_dir"):  # narração pronta (ex.: ElevenLabs do Magnific), um arquivo por bloco
+        return narracao_externa(rot, os.path.dirname(os.path.abspath(roteiro_path)), out)
     k = Kokoro(os.path.join(MODEL_DIR, "kokoro-v1.0.onnx"), os.path.join(MODEL_DIR, "voices-v1.0.bin"))
     dur = {}
     for b in rot["blocos"]:
@@ -31,6 +33,28 @@ def narrar(roteiro_path, build_dir):
         sf.write(os.path.join(out, f"{b['id']}.wav"), sinal, sr)
         dur[b["id"]] = round(len(sinal) / sr, 3)
         print(b["id"], dur[b["id"]], "s")
+    json.dump(dur, open(os.path.join(out, "duracoes.json"), "w"), indent=2)
+    return dur
+
+
+def narracao_externa(rot, base_rot, out):
+    """Usa arquivos de narração já gravados: <narracao_dir>/<id>.mp3 (ou .wav) para cada bloco."""
+    import subprocess
+    pasta = os.path.join(base_rot, rot["narracao_dir"])
+    dur = {}
+    for b in rot["blocos"]:
+        origem = next((os.path.join(pasta, b["id"] + ext) for ext in (".mp3", ".wav", ".m4a")
+                       if os.path.exists(os.path.join(pasta, b["id"] + ext))), None)
+        if not origem:
+            raise FileNotFoundError(f"Narração do bloco {b['id']} não encontrada em {pasta}")
+        tmp = os.path.join(out, f"{b['id']}_orig.wav")
+        subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", origem, "-ac", "1", "-ar", str(SR), tmp], check=True)
+        sinal, sr = sf.read(tmp)
+        os.remove(tmp)
+        sinal = aparar_silencio(sinal, sr)
+        sf.write(os.path.join(out, f"{b['id']}.wav"), sinal, sr)
+        dur[b["id"]] = round(len(sinal) / sr, 3)
+        print(b["id"], dur[b["id"]], "s (narração externa)")
     json.dump(dur, open(os.path.join(out, "duracoes.json"), "w"), indent=2)
     return dur
 
